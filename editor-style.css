@@ -1,0 +1,271 @@
+/*
+*	Stylesheet for customization of TinyMCE editor
+*
+*	LB-Projects Theme
+*	Autor: Lukas Bommes
+*	Copyright (C) Lukas Bommes
+*/
+
+html .mceContentBody {
+	max-width: 698px;
+}
+
+* { 
+	font-family: Verdana,Arial,sans-serif;
+	font-size: 12px;
+	line-height: 150%;
+	text-rendering: optimizelegibility;
+	word-wrap: break-word;
+	hyphens: auto;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	-o-hyphens: auto;
+	-ms-hyphens: auto;
+}
+
+body#tinymce {
+	color: #3a3a3a;
+}
+
+
+::selection { background:#d54e21; color:#fff; }
+::-moz-selection { background:#d54e21; color:#fff; }
+::-webkit-selection { background:#d54e21; color:#fff; }
+
+
+/* Misc */
+
+a, 
+a:active, 
+a:visited {
+	color: #d54e21;
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	border: none;
+	max-width: 678px;
+	height: auto;
+}
+
+input,
+textarea {
+	font-family: Verdana,Arial,sans-serif;
+	font-size: 12px;
+	padding: 2px;
+	outline: none;
+	color: #3a3a3a;
+}
+
+hr {
+	margin: 20px 0;
+	width: 70%;
+	height: 1px;
+	border-top: 1px solid #666;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+}
+
+
+/* Text Styles */
+
+code {
+	display: block;
+	margin: 20px 0;
+	padding: 15px 20px;
+	background-color: #f1f1f1;
+}
+
+table {
+	margin: 12px 0;
+	border-collapse: collapse;
+}
+
+th {
+	padding: 10px;
+	background-color: #f1f1f1;
+	text-align: left;
+	border: 1px solid #888 !important;
+}
+
+td {
+	padding: 10px;
+	border: 1px solid #888 !important;
+}
+
+blockquote {
+	display: inline-block;
+	padding: 5px 12px;
+	text-indent: 40px;
+	background: transparent url('images/blockquote.png') 5px 5px no-repeat;
+	border: 1px dashed #ddd;
+}
+
+blockquote cite {
+	display: block;
+	margin-top: 10px;
+	text-indent: 0;
+}
+
+blockquote cite:before {
+	content:"- ";
+}
+
+tt {
+	padding: 0 3px;
+	font-family: monospace;
+	background-color: #fafafa;
+	border: 1px solid #e6e6e6;
+}
+
+del {
+	color: #3a3a3a;
+}
+
+fieldset {
+	margin: 20px 5px;
+	padding: 10px;
+	border: 1px solid #e6e6e6;
+}
+
+fieldset p {
+	margin: 0;
+}
+
+fieldset legend {
+	padding: 2px 5px;
+	font-weight: bold;
+	background-color: #fafafa;
+	border: 1px solid #e6e6e6;
+}
+
+ins {
+	color: #3a3a3a;
+	background-color: #ff8;
+	text-decoration: none;
+	border: none;
+}
+
+abbr,
+acronym {
+	border-bottom: 1px dotted #3a3a3a;
+	cursor: help;
+}
+
+sub,
+sup {
+	font-size: 9.5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+}
+
+
+/* Alignments */
+
+.alignleft,
+img.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 15px;
+	margin-top: 4px;
+}
+
+.alignright,
+img.alignright {
+	display: inline;
+	float: right;
+	margin-left: 15px;
+	margin-top: 4px;
+}
+
+.aligncenter,
+img.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft,
+.alignright,
+.aligncenter,
+img.alignleft,
+img.alignright,
+img.aligncenter {
+	margin-bottom: 6px;
+}
+
+img.alignnone,
+.alignnone {
+	display: block;
+	margin-top: 4px;
+	margin-bottom: 12px;
+}
+
+
+/* Captions */
+
+.wp-caption {
+	clear: both;
+	margin-top: 10px;
+	margin-bottom: 12px;
+	padding: 5px;
+	max-width: 666px;
+	background: #f1f1f1;
+	border: 1px solid #e1e1e1;
+	color: #888;
+	text-align: center;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	-o-border-radius: 0;
+	-ms-border-radius: 0;
+	
+
+}
+
+.wp-caption img {
+	margin: 5px;
+	max-width: 656px;
+}
+
+.wp-caption p.wp-caption-text {
+	margin: 0 0 4px;
+}
+
+
+/* Custom Shortcodes */
+
+a.button,
+a.button:active,
+a.button:visited {
+	display: inline-block;
+	margin: 10px 0;
+	padding: 10px;
+	color: #fff !important;
+	background-color: #d54e21;
+	transition: background-color .15s;
+	-moz-transition: background-color .15s;
+	-webkit-transition: background-color .15s; 
+	-o-transition: background-color .15s;
+	-ms-transition: background-color .15s;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-o-border-radius: 6px;
+	-ms-border-radius: 6px;
+}
+
+a.button:hover {
+	text-decoration: none;
+	background-color: #33363b;
+}

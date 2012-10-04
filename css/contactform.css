@@ -1,0 +1,141 @@
+#contactForm p.contact-form-name,
+#contactForm p.contact-form-email,
+#contactForm p.contact-form-subject {
+	margin: 12px 0 -4px 0;
+	height: 26px;
+}
+
+#contactMessage {
+	padding: 4px 2px;
+	width: 672px;
+	min-height: 250px;
+	resize: vertical;
+	border: 1px solid #bbb;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	transition: border-color 0.15s;
+	-moz-transition: border-color 0.15s;
+	-webkit-transition: border-color 0.15s;
+	-o-transition: border-color 0.15s;
+	-ms-transition: border-color 0.15s;
+}
+
+#contactMessage:focus {
+	border-color: #888;
+	box-shadow: inset 1px 1px 1px rgba(0,0,0,0.15);
+	-moz-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.15);
+	-webkit-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.15);
+	-o-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.15);
+	-ms-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.15);	
+}
+
+#contactName,
+#contactEmail,
+#contactSubject {
+	margin-bottom: -5px;
+	width: 220px;
+	height: 24px;
+	border: 1px solid #bbb;
+	border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+	-webkit-border-radius: 0 3px 3px 0;
+	-o-border-radius: 0 3px 3px 0;
+	-ms-border-radius: 0 3px 3px 0;
+	transition: border-color 0.15s;
+	-moz-transition: border-color 0.15s;
+	-webkit-transition: border-color 0.15s;
+	-o-transition: border-color 0.15s;
+	-ms-transition: border-color 0.15s;
+}
+
+#contactName:hover,
+#contactEmail:hover,
+#contactSubject:hover {
+	border-color: #888;
+}
+
+#contactName:focus,
+#contactEmail:focus,
+#contactSubject:focus {
+	border-color: #888;
+	box-shadow: inset 1px 1px 1px rgba(0,0,0,0.15);
+	-moz-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.15);
+	-webkit-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.15);
+	-o-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.15);
+	-ms-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.15);
+}
+
+#contactSubmit {
+	padding: 0 10px;
+	height: 30px;
+	cursor: pointer;
+	border: 1px solid rgb(170, 170, 170);
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-o-border-radius: 2px;
+	-ms-border-radius: 2px;
+	background-color: #eee;
+	transition: background-color .15s linear;
+	-moz-transition: background-color .15s linear;
+	-webkit-transition: background-color .15s linear; 
+	-o-transition: background-color .15s linear;
+	-ms-transition: background-color .15s linear;
+}
+
+#contactSubmit i {
+	margin-right: 4px;
+}
+
+#contactSubmit:hover {
+	background-color: #ccc;
+}
+
+#contactError{
+	padding: 1px 5px 1px 5px;
+	border: 1px solid #f00;
+	background-color: #ffcccc;
+}
+
+#contactSuccess {
+	padding: 1px 5px 1px 5px;
+	border: 1px solid #398f14;
+	background-color: #d7e8d0;
+}
+
+#contactForm p.contact-form-name label,
+#contactForm p.contact-form-email label,
+#contactForm p.contact-form-subject label {
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	border-top: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+	border-left: 1px solid #bbb;
+	background-color: #ccc;	
+	border-radius: 3px 0 0 3px;
+	-moz-border-radius: 3px 0 0 3px;
+	-webkit-border-radius: 3px 0 0 3px;
+	-o-border-radius: 3px 0 0 3px;
+	-ms-border-radius: 3px 0 0 3px;
+}
+
+#contactForm p.contact-form-name label:hover,
+#contactForm p.contact-form-email label:hover,
+#contactForm p.contact-form-subject label:hover {
+	background-color: #bbb;
+}
+
+#contactForm p.contact-form-name label i,
+#contactForm p.contact-form-email label i,
+#contactForm p.contact-form-subject label i {
+	margin-top: 5px;
+	display: inline-block;
+	font-size: 12px;
+}

@@ -1,0 +1,88 @@
+#wpadminbar,
+#wpadminbar .ab-top-secondary,
+#wpadminbar .ab-top-menu>li:hover>.ab-item,
+#wpadminbar .ab-top-menu>li.hover>.ab-item,
+#wpadminbar .ab-top-menu>li>.ab-item:focus,
+#wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus {
+	background-image: none;
+	background-color: #33363b;
+	border-bottom: 1px solid #666;
+}
+
+#wpadminbar .menupop .ab-sub-wrapper, 
+#wpadminbar .shortlink-input {	
+	border-top: 0px solid #888;
+	border-right: 1px solid #888;
+	border-left: 1px solid #888;
+	border-bottom: 1px solid #888;
+}
+
+#wpadminbar .quicklinks .menupop ul li {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+
+#wpadminbar .quicklinks .menupop ul li:hover,
+#wpadminbar .quicklinks .menupop ul li:focus {
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+}
+
+#wpadminbar .menupop li:hover,
+#wpadminbar .menupop li.hover,
+#wpadminbar .quicklinks .menupop .ab-item:focus,
+#wpadminbar .quicklinks .menupop .ab-sub-secondary > li:hover,
+#wpadminbar .quicklinks .menupop .ab-sub-secondary > li.hover,
+#wpadminbar .quicklinks .menupop .ab-sub-secondary > li .ab-item:focus,
+#wpadminbar .quicklinks .ab-top-menu .menupop ul li .ab-item:focus {
+	color: #3a3a3a;
+	background-color: #f0f0f0;
+}
+
+#wpadminbar .ab-top-menu>li:hover>.ab-item,
+#wpadminbar .ab-top-menu>li.hover>.ab-item,
+#wpadminbar .ab-top-menu>li>.ab-item:focus,
+#wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus,
+#wpadminbar .quicklinks .ab-top-menu .menupop .ab-item:focus {
+	color: #fff;
+	background-color: #484a4f;
+	border-top: none;
+	border-bottom: none;
+}
+
+#wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions > li {
+	border: none;
+}
+
+#wpadminbar .quicklinks .menupop ul li a,
+#wpadminbar .quicklinks .menupop ul li a strong,
+#wpadminbar .quicklinks .menupop.hover ul li a,
+#wpadminbar.nojs .quicklinks .menupop:hover ul li a {
+	color: #3a3a3a;
+}
+
+#wpadminbar .quicklinks > ul > li > a,
+#wpadminbar .quicklinks > ul > li > .ab-empty-item {
+	border-right: none;
+}
+
+#wpadminbar .quicklinks .ab-top-secondary > li {
+	border-left: none;
+}
+
+#wpadminbar .quicklinks > ul > li {
+	border-right: 1px solid #666;
+}
+
+#wpadminbar .quicklinks .ab-top-secondary > li > a, 
+#wpadminbar .quicklinks .ab-top-secondary > li > .ab-empty-item {
+	border-left: 1px solid #666;
+}
+
+#wpadminbar .quicklinks .menupop ul.ab-sub-secondary {
+	background-color: #fff;
+}
+
+#wpadminbar .quicklinks .menupop ul.ab-sub-secondary {
+	border-top: 1px solid #aaa;
+}

@@ -1,0 +1,1375 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LB-Projects v3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-10-03 16:43:29+0000\n"
+"Last-Translator: lukas-bommes <info@lb-home.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: contactform.php:100
+#: functions/custom_functions.php:172
+#@ lbprojects
+msgid "Name"
+msgstr "Name"
+
+#: contactform.php:105
+#: functions/custom_functions.php:175
+#@ lbprojects
+msgid "Email"
+msgstr "Email"
+
+#: admin/options.php:259
+#: footer.php:44
+#@ lbprojects
+msgid "YouTube"
+msgstr "YouTube"
+
+#: footer.php:93
+#: functions/custom_functions.php:37
+#@ lbprojects
+msgid "Powered by"
+msgstr "Powered by"
+
+#: footer.php:93
+#: functions/custom_functions.php:37
+#@ lbprojects
+msgid "WordPress"
+msgstr "WordPress"
+
+#: footer.php:93
+#@ lbprojects
+msgid "Theme developed by"
+msgstr "Theme entwickelt von"
+
+#: footer.php:93
+#: functions/custom_functions.php:37
+#@ lbprojects
+msgid "LB-Projects"
+msgstr "LB-Projects"
+
+#: functions/custom_functions.php:37
+#@ lbprojects
+msgid "Theme designed and developed by"
+msgstr "Theme designed und entwickelt von"
+
+#: archives.php:45
+#@ lbprojects
+msgid "Feeds"
+msgstr "Feeds"
+
+#: 404.php:20
+#@ lbprojects
+msgid "The requested site could not be found!"
+msgstr "Die angeforderte Seite wurde nicht gefunden!"
+
+#: 404.php:30
+#@ lbprojects
+msgid "Browse the website via site search or use the navigation. Please contact the administrator if the error remains."
+msgstr "Nutzen Sie doch die Navigation oder Suche, um entsprechende Inhalte zu finden. Sollte der Fehler weiterhin auftreten, wenden Sie sich bitte an den Administrator."
+
+#: admin/options-framework.php:98
+#: admin/options-framework.php:238
+#@ lbprojects
+msgid "Theme Options"
+msgstr "Theme Einstellungen"
+
+#: comments.php:55
+#@ lbprojects
+msgid "There are no comments to this topic."
+msgstr "Zu diesem Artikel sind bisher keine freigegebenen Kommentare vorhanden."
+
+#: comments.php:44
+#@ lbprojects
+msgid "1 comment to"
+msgstr "1 Kommentar zu"
+
+#: comments.php:48
+#@ lbprojects
+msgid "comments to"
+msgstr "Kommentare zu"
+
+#: comments.php:74
+#@ lbprojects
+msgid "Comments are off."
+msgstr "Die Kommentarfunktion ist deaktiviert."
+
+#: footer.php:21
+#@ lbprojects
+msgid "subscribe Newsfeed"
+msgstr "Newsfeed abonnieren"
+
+#: footer.php:28
+#@ lbprojects
+msgid "my Facebook profile"
+msgstr "Mein Facebook-Profil"
+
+#: footer.php:32
+#@ lbprojects
+msgid "follow me on twitter"
+msgstr "Folge mir auf Twitter"
+
+#: footer.php:36
+#@ lbprojects
+msgid "my Googleplus profile"
+msgstr "Mein Googleplus-Profil"
+
+#: footer.php:40
+#@ lbprojects
+msgid "my Linkedin profile"
+msgstr "Mein Linkedin-Profil"
+
+#: footer.php:44
+#@ lbprojects
+msgid "on YouTube"
+msgstr "auf YouTube"
+
+#: archives.php:35
+#: attachment.php:64
+#: contactform.php:95
+#: front-page.php:135
+#: fullwidth.php:37
+#: functions/custom_functions.php:219
+#: index.php:29
+#: page.php:31
+#: search.php:37
+#: single.php:31
+#@ lbprojects
+msgid "read more"
+msgstr "weiterlesen"
+
+#: functions/breadcrumb_functions.php:78
+#@ lbprojects
+msgid "Search Results"
+msgstr "Suchergebnisse"
+
+#: functions/breadcrumb_functions.php:81
+#@ lbprojects
+msgid "Posts with the tag"
+msgstr "Beitr&auml;ge mit dem Schlagwort"
+
+#: functions/breadcrumb_functions.php:86
+#@ lbprojects
+msgid "Posts published by"
+msgstr "Beitr&auml;ge ver&ouml;ffentlicht von"
+
+#: functions/breadcrumb_functions.php:89
+#@ lbprojects
+msgid "Error 404"
+msgstr "Fehler 404"
+
+#: functions/breadcrumb_functions.php:94
+#: functions/content_functions.php:254
+#: functions/gallery_pagination.php:81
+#@ lbprojects
+msgid "Page"
+msgstr "Seite"
+
+#: functions/content_functions.php:254
+#@ lbprojects
+msgid "of"
+msgstr "von"
+
+#: gb_comments.php:26
+#@ lbprojects
+msgid "Guestbook"
+msgstr "G&auml;stebuch"
+
+#: gb_comments.php:27
+#@ lbprojects
+msgid "Submit Entry"
+msgstr "Eintrag abschicken"
+
+#: gb_comments.php:51
+#@ lbprojects
+msgid "There are no entries."
+msgstr "Es sind bisher keine freigegebenen Eintr&auml;ge vorhanden."
+
+#: gb_comments.php:40
+#@ lbprojects
+msgid "1 entry in guestbook"
+msgstr "1 Eintrag im G&auml;stebuch"
+
+#: gb_comments.php:44
+#@ lbprojects
+msgid "entries in guestbook"
+msgstr "Eintr&auml;ge im G&auml;stebuch"
+
+#: gb_comments.php:70
+#@ lbprojects
+msgid "Guestbook is deactivated."
+msgstr "Das  G&auml;stebuch ist deaktiviert."
+
+#: search.php:60
+#@ lbprojects
+msgid "No hits"
+msgstr "Keine Treffer"
+
+#: widgets/recentposts_widget.php:64
+#@ lbprojects
+msgid "Recent Posts"
+msgstr "Neue Artikel"
+
+#: widgets/tagcloud_widget.php:42
+#@ lbprojects
+msgid "Tags"
+msgstr "Schlagw&ouml;rter"
+
+#: archives.php:39
+#: functions/content_functions.php:232
+#@ lbprojects
+msgid "Pages"
+msgstr "Seiten"
+
+#: archives.php:49
+#@ lbprojects
+msgid "Site-Feed"
+msgstr "Seiten-Feed"
+
+#: archives.php:53
+#@ lbprojects
+msgid "Comment-Feed"
+msgstr "Kommentar-Feed"
+
+#: archives.php:57
+#@ lbprojects
+msgid "Categories"
+msgstr "Kategorien"
+
+#: admin/options.php:70
+#@ lbprojects
+msgid "Logo"
+msgstr "Logo"
+
+#: admin/options.php:161
+#@ lbprojects
+msgid "Custom CSS"
+msgstr "Eigenes CSS"
+
+#: admin/options.php:244
+#@ lbprojects
+msgid "Display RSS Button"
+msgstr "RSS Button anzeigen"
+
+#: admin/options.php:251
+#@ lbprojects
+msgid "Display Social Buttons"
+msgstr "Social Buttons anzeigen"
+
+#: admin/options.php:260
+#@ lbprojects
+msgid "Enter your YouTube account name."
+msgstr "Geben Sie Ihren YouTube Benutzernamen ein."
+
+#: admin/options.php:267
+#: footer.php:28
+#@ lbprojects
+msgid "Facebook"
+msgstr "Facebook"
+
+#: admin/options.php:268
+#@ lbprojects
+msgid "Enter the URL to your Facebook profile."
+msgstr "Geben Sie die URL zu Ihrem Facebook-Profil ein."
+
+#: admin/options.php:275
+#: footer.php:32
+#: widgets/twitter_widget.php:46
+#@ lbprojects
+msgid "Twitter"
+msgstr "Twitter"
+
+#: admin/options.php:276
+#@ lbprojects
+msgid "Enter the URL to your Twitter profile."
+msgstr "Geben Sie die URL zu Ihrem Twitter-Profil ein."
+
+#: admin/options.php:283
+#@ lbprojects
+msgid "Googleplus"
+msgstr "Googleplus"
+
+#: admin/options.php:284
+#@ lbprojects
+msgid "Enter the URL to your Googleplus profile."
+msgstr "Geben Sie die URL zu Ihrem Googleplus-Profil ein."
+
+#: admin/options.php:291
+#: footer.php:40
+#@ lbprojects
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: admin/options.php:292
+#@ lbprojects
+msgid "Enter the URL to your Linkedin profile."
+msgstr "Geben Sie die URL zu Ihrem Linkedin-Profil ein."
+
+#: admin/options.php:424
+#@ lbprojects
+msgid "Display Slideshow"
+msgstr "Slideshow anzeigen"
+
+#: admin/options.php:57
+#@ lbprojects
+msgid "Announcement Text"
+msgstr "Ank&uuml;ndigungstext"
+
+#: admin/options.php:58
+#@ lbprojects
+msgid "This text will be displayed on a yellow background. You can use it for important information or announcements to your readers."
+msgstr "Der hier eingegebene Text wird auf jeder Seite gelb hinterlegt angezeigt. Hier sollten wichtige Informationen und Ank&uuml;ndigungen eingetragen werden."
+
+#: admin/options.php:126
+#@ lbprojects
+msgid "Footer Copyright Text"
+msgstr "Footer Copyright Text"
+
+#: comments.php:14
+#: gb_comments.php:14
+#@ lbprojects
+msgid "Please do not load this page directly. Thanks!"
+msgstr "Bitte laden Sie diese Seite nicht direkt. Danke!"
+
+#: comments.php:17
+#: gb_comments.php:17
+#@ lbprojects
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Dieser Artikel ist passwortgeschützt. Geben Sie das Passwort ein, um die Kommentare anzuzeigen."
+
+#: widgets/recentposts_widget.php:10
+#@ lbprojects
+msgid "This Widget displays your most recent posts."
+msgstr "Dieses Widget zeigt die neuesten Artikel an."
+
+#: widgets/about_widget.php:85
+#: widgets/gallery_widget.php:64
+#: widgets/recentposts_widget.php:69
+#: widgets/tagcloud_widget.php:46
+#: widgets/twitter_widget.php:50
+#@ lbprojects
+msgid "Title:"
+msgstr "Titel:"
+
+#: widgets/gallery_widget.php:68
+#: widgets/recentposts_widget.php:73
+#: widgets/tagcloud_widget.php:50
+#: widgets/twitter_widget.php:58
+#@ lbprojects
+msgid "Count:"
+msgstr "Anzahl:"
+
+#: widgets/tagcloud_widget.php:10
+#@ lbprojects
+msgid "This Widget displays the most common tags."
+msgstr "Dieses Widget zeigt die h&auml;ufigsten Schlagw&ouml;rter an."
+
+#: widgets/tagcloud_widget.php:11
+#@ lbprojects
+msgid "LB - Tagcloud"
+msgstr "LB - Schlagw&ouml;rter"
+
+#: widgets/recentposts_widget.php:11
+#@ lbprojects
+msgid "LB - Recent Posts"
+msgstr "LB - Neue Artikel"
+
+#: contactform.php:110
+#@ lbprojects
+msgid "Subject"
+msgstr "Betreff"
+
+#: contactform.php:118
+#@ lbprojects
+msgid "Submit Email"
+msgstr "Email abschicken"
+
+#: contactform.php:124
+#@ lbprojects
+msgid "Your Message could not be submitted. Please check your input."
+msgstr "Ihre Nachricht konnte nicht gesendet werden. Bitte &uuml;berpr&uuml;fen Sie alle Eingaben."
+
+#: contactform.php:128
+#@ lbprojects
+msgid "Your message has been submitted successfully."
+msgstr "Ihre Nachricht wurde erfolgreich gesendet."
+
+#: functions.php:44
+#@ lbprojects
+msgid "The main sidebar widget area"
+msgstr "Der Haupt-Widgetbereich für die Sidebar"
+
+#: attachment.php:33
+#@ lbprojects
+msgid "Return to image gallery"
+msgstr "Zur&uuml;ck zur Bildergalerie"
+
+#: search.php:20
+#, php-format
+#@ lbprojects
+msgid "Your search for &quot;%s&quot; got %d hits."
+msgstr "Ihre Suche nach &quot;%s&quot; erzielte %d Treffer."
+
+#: search.php:65
+#, php-format
+#@ lbprojects
+msgid "Your search for &quot;%s&quot; did not get any results. You may try another keyword or browse the site archive."
+msgstr "Ihre Suche nach &quot;%s&quot; erzielte leider keine Treffer. Probieren Sie doch ein anderes Suchwort oder durchsuchen Sie das Seitenarchiv."
+
+#: widgets/recentposts_widget.php:82
+#@ lbprojects
+msgid "Show date?"
+msgstr "Datum anzeigen?"
+
+#: widgets/recentposts_widget.php:77
+#@ lbprojects
+msgid "Posts to skip:"
+msgstr "Artikel &uuml;berspringen:"
+
+#: widgets/about_widget.php:10
+#@ lbprojects
+msgid "This Widget displays your avatar and biographical information."
+msgstr "Dieses Widget zeigt Ihr Benutzerbild und Informationen &uuml;ber Sie an."
+
+#: widgets/about_widget.php:11
+#@ lbprojects
+msgid "LB - About the Author"
+msgstr "LB - &Uuml;ber den Autor"
+
+#: widgets/about_widget.php:44
+#@ lbprojects
+msgid "learn more about me"
+msgstr "Erfahren Sie mehr &uuml;ber mich"
+
+#: widgets/about_widget.php:89
+#@ lbprojects
+msgid "Select Author:"
+msgstr "Autor ausw&auml;hlen:"
+
+#: widgets/about_widget.php:94
+#@ lbprojects
+msgid "Display avatar?"
+msgstr "Avatar anzeigen?"
+
+#: widgets/about_widget.php:97
+#@ lbprojects
+msgid "Size of the avatar:"
+msgstr "Gr&ouml;&szlig;e des Avatars:"
+
+#: widgets/about_widget.php:102
+#@ lbprojects
+msgid "Display custom text instead of biographical data set in the profile page?"
+msgstr "Eigenen Text anstatt der im Profil angegebenen Biographie anzeigen?"
+
+#: widgets/about_widget.php:105
+#@ lbprojects
+msgid "Description:"
+msgstr "Beschreibung:"
+
+#: widgets/about_widget.php:109
+#@ lbprojects
+msgid "URL to your about page:"
+msgstr "URL zur Ihrer About-Seite:"
+
+#: archives.php:63
+#@ lbprojects
+msgid "Post Archives"
+msgstr "Artikelarchive"
+
+#: functions/content_functions.php:103
+#@ lbprojects
+msgid "About"
+msgstr "&Uuml;ber"
+
+#: functions/content_functions.php:27
+#@ lbprojects
+msgid "Related posts"
+msgstr "&Auml;hnliche Artikel"
+
+#: comments.php:30
+#: gb_comments.php:30
+#@ lbprojects
+msgid "Your email address will not be published. Required fields are marked."
+msgstr "Ihre Email-Adresse wird nicht ver&ouml;ffentlicht. Erforderliche Felder sind markiert."
+
+#: comments.php:41
+#@ lbprojects
+msgid "Toggle comments"
+msgstr "Kommentare umschalten"
+
+#: admin/options.php:110
+#@ lbprojects
+msgid "Sidebar Position"
+msgstr "Position der Seitenleiste"
+
+#: admin/options.php:89
+#@ lbprojects
+msgid "Header Color"
+msgstr "Farbe der Kopfzeile"
+
+#: admin/options.php:90
+#@ lbprojects
+msgid "Select the Color of the Header."
+msgstr "W&auml;hlen Sie die Farbe der Kopfzeile aus."
+
+#: admin/options.php:96
+#@ lbprojects
+msgid "Footer Color"
+msgstr "Farbe der Fu&szlig;zeile"
+
+#: functions/content_functions.php:136
+#: functions/content_functions.php:166
+#@ lbprojects
+msgid "posted on"
+msgstr "ver&ouml;ffentlicht am"
+
+#: functions/content_functions.php:139
+#@ lbprojects
+msgid "in"
+msgstr "in"
+
+#: functions/content_functions.php:138
+#: functions/content_functions.php:168
+#@ lbprojects
+msgid "at"
+msgstr "um"
+
+#: admin/options.php:204
+#@ lbprojects
+msgid "Thumbnails"
+msgstr "Artikelbilder"
+
+#: functions/featured_post_functions.php:10
+#@ lbprojects
+msgid "Featured Post"
+msgstr "Bevorzugter Artikel"
+
+#: functions/featured_post_functions.php:26
+#@ lbprojects
+msgid "Display post in the featured post slider on the homepage."
+msgstr "Zeige den Artikel im Featured-Post Slider auf der Startseite an."
+
+#: front-page.php:103
+#@ lbprojects
+msgid "Previous Posts"
+msgstr "Vorige Artikel"
+
+#: front-page.php:104
+#@ lbprojects
+msgid "Next Posts"
+msgstr "N&auml;chste Artikel"
+
+#: functions/featured_post_functions.php:30
+#@ lbprojects
+msgid "Custom Title:"
+msgstr "Eigener Titel:"
+
+#: functions/content_functions.php:130
+#@ lbprojects
+msgid "Edit This"
+msgstr "Bearbeiten"
+
+#: functions/custom_functions.php:178
+#@ lbprojects
+msgid "Website"
+msgstr "Webseite"
+
+#: functions/custom_functions.php:149
+#@ lbprojects
+msgid "Username"
+msgstr "Benutzername"
+
+#: functions/custom_functions.php:153
+#@ lbprojects
+msgid "Password"
+msgstr "Passwort"
+
+#: functions/custom_functions.php:155
+#@ lbprojects
+msgid "Remember me?"
+msgstr "Erinnere dich?"
+
+#: functions/custom_functions.php:157
+#: header.php:81
+#@ lbprojects
+msgid "Sign in"
+msgstr "Einloggen"
+
+#: functions/custom_functions.php:239
+#: header.php:73
+#@ lbprojects
+msgid "Search"
+msgstr "Suche"
+
+#: front-page.php:149
+#: index.php:43
+#@ lbprojects
+msgid "This category is empty!"
+msgstr "Diese Kategorie enth&auml;lt keine Artikel!"
+
+#: header.php:79
+#@ lbprojects
+msgid "Sign out"
+msgstr "Ausloggen"
+
+#: admin/options.php:175
+#@ lbprojects
+msgid "Admin Style"
+msgstr "Admin Style"
+
+#: functions/custom_functions.php:82
+#@ lbprojects
+msgid "Featured"
+msgstr "Artikelbild"
+
+#: functions/content_functions.php:152
+#@ lbprojects
+msgid "written by"
+msgstr "geschrieben von"
+
+#: functions.php:45
+#: functions.php:46
+#: functions.php:47
+#: functions.php:48
+#@ lbprojects
+msgid "Optional widget area for the site footer"
+msgstr "Optionaler Widget-Bereich f&uuml;r den Footer"
+
+#: widgets/about_widget.php:77
+#@ lbprojects
+msgid "About Me"
+msgstr "&Uuml;ber Mich"
+
+#: widgets/twitter_widget.php:10
+#@ lbprojects
+msgid "This Widget displays your latest tweets."
+msgstr "Dieses Widget zeigt Ihre neuesten Tweets an."
+
+#: widgets/twitter_widget.php:11
+#@ lbprojects
+msgid "LB - Twitter"
+msgstr "LB - Twitter"
+
+#: widgets/twitter_widget.php:54
+#@ lbprojects
+msgid "Username:"
+msgstr "Benutzername:"
+
+#: widgets/gallery_widget.php:10
+#@ lbprojects
+msgid "This Widget displays random images from your media library."
+msgstr "Dieses Widget zeigt zuf&auml;llige Bilder aus Ihrer Medienbibliothek an."
+
+#: widgets/gallery_widget.php:11
+#@ lbprojects
+msgid "LB - Images"
+msgstr "LB - Bilder"
+
+#: widgets/gallery_widget.php:60
+#@ lbprojects
+msgid "Images"
+msgstr "Bilder"
+
+#: header.php:115
+#@ lbprojects
+msgid "Javascript is disabled on your browser. Some features of this website may not work properly."
+msgstr "Javascript ist in Ihrem Browser deaktiviert. Einige Funktionen dieser Website k&ouml;nnten nicht funktionieren."
+
+#: comments.php:28
+#: gb_comments.php:28
+#@ lbprojects
+msgid "Cancel Reply"
+msgstr "Antworten abbrechen"
+
+#: admin/options-framework.php:150
+#@ lbprojects
+msgid "Save Options"
+msgstr "Einstellungen speichern"
+
+#: admin/options-framework.php:151
+#@ lbprojects
+msgid "Restore Defaults"
+msgstr "Einstellungen zur&uuml;cksetzen"
+
+#: admin/options-framework.php:151
+#@ lbprojects
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr "Klicken Sie OK zum Resetten. Alle Einstellungen gehen verloren!"
+
+#: admin/options-framework.php:169
+#@ lbprojects
+msgid "Default options restored."
+msgstr "Standardeinstellungen wiederhergestellt."
+
+#: admin/options-framework.php:205
+#@ lbprojects
+msgid "Options saved."
+msgstr "Einstellungen gespeichert."
+
+#: admin/options-medialibrary-uploader.php:14
+#@ lbprojects
+msgid "Theme Options Media"
+msgstr "Theme Medienoptionen"
+
+#: admin/options-medialibrary-uploader.php:87
+#@ lbprojects
+msgid "Upload"
+msgstr "Upload"
+
+#: admin/options-medialibrary-uploader.php:110
+#@ lbprojects
+msgid "View File"
+msgstr "Datei ansehen"
+
+#: admin/options-medialibrary-uploader.php:174
+#@ lbprojects
+msgid "Gallery"
+msgstr "Galerie"
+
+#: admin/options-medialibrary-uploader.php:174
+#@ lbprojects
+msgid "Previously Uploaded"
+msgstr "Vorher hochgeladen"
+
+#: admin/options-sanitize.php:226
+#@ lbprojects
+msgid "No Repeat"
+msgstr "Nicht wiederholen"
+
+#: admin/options-sanitize.php:227
+#@ lbprojects
+msgid "Repeat Horizontally"
+msgstr "Horizontal wiederholen"
+
+#: admin/options-sanitize.php:228
+#@ lbprojects
+msgid "Repeat Vertically"
+msgstr "Vertikal wiederholen"
+
+#: admin/options-sanitize.php:229
+#@ lbprojects
+msgid "Repeat All"
+msgstr "Alles wiederholen"
+
+#: admin/options-sanitize.php:237
+#@ lbprojects
+msgid "Top Left"
+msgstr "Oben Links"
+
+#: admin/options-sanitize.php:238
+#@ lbprojects
+msgid "Top Center"
+msgstr "Oben Mitte"
+
+#: admin/options-sanitize.php:239
+#@ lbprojects
+msgid "Top Right"
+msgstr "Oben Rechts"
+
+#: admin/options-sanitize.php:240
+#@ lbprojects
+msgid "Middle Left"
+msgstr "Mitte Links"
+
+#: admin/options-sanitize.php:241
+#@ lbprojects
+msgid "Middle Center"
+msgstr "Mitte"
+
+#: admin/options-sanitize.php:242
+#@ lbprojects
+msgid "Middle Right"
+msgstr "Mitte Rechts"
+
+#: admin/options-sanitize.php:243
+#@ lbprojects
+msgid "Bottom Left"
+msgstr "Unten Links"
+
+#: admin/options-sanitize.php:244
+#@ lbprojects
+msgid "Bottom Center"
+msgstr "Unten Mitte"
+
+#: admin/options-sanitize.php:245
+#@ lbprojects
+msgid "Bottom Right"
+msgstr "Unten Rechts"
+
+#: admin/options-sanitize.php:253
+#@ lbprojects
+msgid "Scroll Normally"
+msgstr "Normal Scrollen"
+
+#: admin/options-sanitize.php:254
+#@ lbprojects
+msgid "Fixed in Place"
+msgstr "Fixiert"
+
+#: admin/options-sanitize.php:293
+#: admin/options.php:45
+#@ lbprojects
+msgid "Normal"
+msgstr "Normal"
+
+#: admin/options-sanitize.php:294
+#: admin/options.php:45
+#@ lbprojects
+msgid "Italic"
+msgstr "Kursiv"
+
+#: admin/options-sanitize.php:295
+#@ lbprojects
+msgid "Bold"
+msgstr "Fett"
+
+#: admin/options-sanitize.php:296
+#@ lbprojects
+msgid "Bold Italic"
+msgstr "Fett Kursiv"
+
+#: admin/options.php:53
+#@ lbprojects
+msgid "Basic Settings"
+msgstr "Basiseinstellungen"
+
+#: admin/options.php:71
+#@ lbprojects
+msgid "For the best displaying results the logo should be 50 pixels width."
+msgstr "F&uuml;r die besten Anzeigeergebnisse sollte das Logo etwa 50 Pixel breit sein."
+
+#: admin/options.php:76
+#@ lbprojects
+msgid "Favicon"
+msgstr "Favicon"
+
+#: admin/options.php:82
+#@ lbprojects
+msgid "Background"
+msgstr "Hintergrund"
+
+#: admin/options.php:83
+#@ lbprojects
+msgid "Change the site's background options."
+msgstr "&Auml;ndern Sie die Einstellungen des Seitenhintergrunds."
+
+#: admin/options.php:111
+#@ lbprojects
+msgid "Select the position of the sidebar."
+msgstr "W&auml;hlen Sie die Position der Seitenleiste."
+
+#: admin/options.php:127
+#@ lbprojects
+msgid "Enter your custom footer text to display copyright information."
+msgstr "Geben Sie Ihren eigenen Footer-Text zum Anzeigen von Copyright-Informationen ein."
+
+#: admin/options.php:142
+#@ lbprojects
+msgid "Advanced Settings"
+msgstr "Erweiterte Einstellungen"
+
+#: admin/options.php:162
+#@ lbprojects
+msgid "Here you can add custom properties to the stylesheet, e.g. .button{color:green;}. They will be automatically added to the website's header."
+msgstr "Hier k&ouml;nnen Sie eigene Erg&auml;nzungen zum Stylesheet hinzuf&uuml;gen, z.B. .button{color:green;}. Sie werden automatisch zum Seitenheader hinzugef&uuml;gt."
+
+#: admin/options.php:176
+#@ lbprojects
+msgid "Use the custom backend stylesheet."
+msgstr "Das benutzerdefinierte Backend-Design verwenden."
+
+#: admin/options.php:182
+#@ lbprojects
+msgid "Header Forms"
+msgstr "Header-Formulare"
+
+#: admin/options.php:183
+#@ lbprojects
+msgid "Check the features you want to be displayed in the site's header."
+msgstr "W&auml;hlen Sie die Funktionen aus, die im Header angezeigt werden sollen."
+
+#: admin/options.php:190
+#@ lbprojects
+msgid "About the author Widget"
+msgstr "&Uuml;ber den Autor Widget"
+
+#: admin/options.php:191
+#@ lbprojects
+msgid "Display a widget with the author meta after each post."
+msgstr "Zeige ein Widget mit Autoreninformationen nach jedem Artikel an."
+
+#: admin/options.php:205
+#@ lbprojects
+msgid "Display featured post thumbnails for each post on archive pages."
+msgstr "Zeige Artikelbilder f&uuml;r jeden Artikel auf Archivseiten an."
+
+#: admin/options.php:211
+#@ lbprojects
+msgid "Breadcrumb Navigation"
+msgstr "Breadcrumb Navigation"
+
+#: admin/options.php:212
+#@ lbprojects
+msgid "Display the Breadcrumb-Navigation at the top of each page."
+msgstr "Zeige die Breadcrumb Navigation oben auf jeder Seite an."
+
+#: admin/options.php:240
+#@ lbprojects
+msgid "Footer Buttons"
+msgstr "Footer Buttons"
+
+#: admin/options.php:245
+#@ lbprojects
+msgid "Display RSS Buttons in the site's footer."
+msgstr "Zeige den RSS Button im Seitenfooter an."
+
+#: admin/options.php:252
+#@ lbprojects
+msgid "Enable Social Buttons in the site's footer."
+msgstr "Social Buttons im Seitenfooter aktivieren."
+
+#: admin/options.php:403
+#@ lbprojects
+msgid "Slider Options"
+msgstr "Slider Optionen"
+
+#: admin/options.php:407
+#@ lbprojects
+msgid "Featured Post Slider"
+msgstr "Featured Post Slider"
+
+#: admin/options.php:412
+#@ lbprojects
+msgid "Enable Featured Post Slider"
+msgstr "Aktiviere Featured Post Slider"
+
+#: admin/options.php:413
+#@ lbprojects
+msgid "Enable featured post slider on the front page."
+msgstr "Aktiviere den Featured Post Slider auf der Startseite."
+
+#: admin/options.php:419
+#@ lbprojects
+msgid "Front Page Slideshow"
+msgstr "Startseiten Slideshow"
+
+#: admin/options.php:420
+#@ lbprojects
+msgid "The front page slider will contain large images and text. That allows you to focus on special content and get high clickrates on this specific content. If you do not want to use the slider uncheck the option below."
+msgstr "Der Startseiten-Slider enth&auml;lt Bilder und Text. Das erlaubt es Ihnen, spezielle Inhalte hervorzuheben und hohe Klickraten f&uuml;r diese Inhalte zu generieren. Wenn Sie den Slider nicht verwenden m&ouml;chten, deaktivieren Sie die Option unten."
+
+#: admin/options.php:425
+#@ lbprojects
+msgid "Enable image slideshow on the front page."
+msgstr "Aktiviere die Bilder-Slideshow auf der Startseite."
+
+#: footer.php:21
+#@ lbprojects
+msgid "RSS"
+msgstr "RSS"
+
+#: footer.php:36
+#@ lbprojects
+msgid "Google+"
+msgstr "Google+"
+
+#: admin/options.php:77
+#@ lbprojects
+msgid "A favicon is a 16x16 pixels width an height image in the ICO-format. This image will be shown in the browser's adress bar."
+msgstr "Ein Favicon ist ein 16x16 Pixel gro&szlig;es Bild im ICO-Format. Dieses Bild wird automatisch in der Adressleiste des Browsers angezeigt."
+
+#: admin/options.php:118
+#@ lbprojects
+msgid "Header Scrolling Behaviour"
+msgstr "Scrollverhalten des Headers"
+
+#: admin/options.php:119
+#@ lbprojects
+msgid "Select the scrolling behaviour of the header."
+msgstr "W&auml;hlen Sie das Scrollverhalten des Headers aus."
+
+#: admin/options.php:123
+#@ lbprojects
+msgid "Scroll with rest of page"
+msgstr "Mit dem Rest der Seite mitscrollen"
+
+#: admin/options.php:123
+#@ lbprojects
+msgid "Stick to top of browser window"
+msgstr "Am oberen Browserfensterrand fixieren"
+
+#: admin/options.php:187
+#@ lbprojects
+msgid "Login Form"
+msgstr "Anmeldeformular"
+
+#: admin/options.php:187
+#@ lbprojects
+msgid "Search Form"
+msgstr "Suchformular"
+
+#: admin/options.php:97
+#@ lbprojects
+msgid "Select the Color of the Footer."
+msgstr "W&auml;hlen Sie die Farbe des Seitenfooters."
+
+#: admin/options.php:103
+#@ lbprojects
+msgid "Link Color"
+msgstr "Link-Farbe"
+
+#: admin/options.php:104
+#@ lbprojects
+msgid "Select the Color of Links and all accents on the website."
+msgstr "W&auml;hlen Sie die Farbe f&uuml;r Links und alle Akzente auf der Website."
+
+#: admin/options.php:153
+#@ lbprojects
+msgid "Google Analytics Tracking"
+msgstr "Google Analytics Tracking"
+
+#: admin/options.php:154
+#@ lbprojects
+msgid "Enter your Google Analytics Account ID. For example: UA-123456-12"
+msgstr "Geben Sie Ihre Google Analytics Account-ID ein. Zum Beispiel: UA-123456-12"
+
+#: admin/options.php:64
+#@ lbprojects
+msgid "Header Image"
+msgstr "Header Bild"
+
+#: admin/options.php:65
+#@ lbprojects
+msgid "The header image should be 1000 pixels width and about 200 pixels height."
+msgstr "Das Header-Bild sollte 1000 Pixel breit und etwa 200 Pixel hoch sein."
+
+#: functions/content_functions.php:238
+#@ lbprojects
+msgid "Previous Post"
+msgstr "Voriger Artikel"
+
+#: functions/content_functions.php:239
+#@ lbprojects
+msgid "Next Post"
+msgstr "N&auml;chster Artikel"
+
+#: functions/content_functions.php:169
+#@ lbprojects
+msgid "by"
+msgstr "von"
+
+#: admin/options-interface.php:334
+#@ lbprojects
+msgid "Title"
+msgstr "Titel"
+
+#: admin/options-interface.php:338
+#@ lbprojects
+msgid "Link"
+msgstr "Link"
+
+#: admin/options-interface.php:350
+#@ lbprojects
+msgid "Text"
+msgstr "Text"
+
+#: admin/options.php:432
+#: admin/options.php:439
+#: admin/options.php:446
+#: admin/options.php:453
+#: admin/options.php:460
+#: admin/options.php:467
+#: admin/options.php:474
+#: admin/options.php:481
+#: admin/options.php:488
+#: admin/options.php:495
+#@ lbprojects
+msgid "Slider Image"
+msgstr "Slider Bild"
+
+#: admin/options.php:408
+#@ lbprojects
+msgid "This Option allows you to add posts to a slider on your static frontpage. Simply go to the WordPress post editor and check the Option in the custom meta box \"Featured Post\" to append the article to the slider."
+msgstr "Diese Option erlaubt Ihnen das Hinzuf&uuml;gen von favorisierten Artikeln zu einem Slider auf der Startseite. Rufen Sie einen Artikel im Editor auf und aktivieren die Option in der Meta-Box \"Featured Post\" um einen Artikel zum Slider hinzuzuf&uuml;gen."
+
+#: admin/options.php:133
+#@ lbprojects
+msgid "Typography"
+msgstr "Typographie"
+
+#: admin/options.php:134
+#@ lbprojects
+msgid "Settings for font size, font face and font style."
+msgstr "Einstellungen f&uuml;r Schriftgr&ouml;ße, Schritart und Stil."
+
+#: header.php:43
+#@ lbprojects
+msgid "Scroll to top"
+msgstr "Nach oben scrollen"
+
+#: admin/options.php:218
+#@ lbprojects
+msgid "Scroll to Top Button"
+msgstr "Scroll to Top Button"
+
+#: admin/options.php:219
+#@ lbprojects
+msgid "Display the Scroll to Top Button in the bottom right corner."
+msgstr "Zeige den Scroll to Top Button in der unteren rechten Ecke an."
+
+#: attachment.php:37
+#@ lbprojects
+msgid "Previous Image"
+msgstr "Voriges Bild"
+
+#: attachment.php:36
+#@ lbprojects
+msgid "Next Image"
+msgstr "N&auml;chstes Bild"
+
+#: attachment.php:50
+#@ lbprojects
+msgid "Return to the article"
+msgstr "Zur&uuml;ck zum Artikel"
+
+#: admin/options.php:300
+#@ lbprojects
+msgid "Gallery Options"
+msgstr "Galerie Optionen"
+
+#: admin/options.php:304
+#@ lbprojects
+msgid "Gallery Lightbox"
+msgstr "Galerie Lightbox"
+
+#: admin/options.php:305
+#@ lbprojects
+msgid "Enable lightbox effect for image gallerys."
+msgstr "Aktiviere Lightbox Effekt für Bildergalerien."
+
+#: admin/options.php:312
+#@ lbprojects
+msgid "Navigation Buttons"
+msgstr "Navigations-Buttons"
+
+#: admin/options.php:313
+#@ lbprojects
+msgid "Display buttons with navigation elements on top of the lightbox."
+msgstr "Zeige Navigations-Buttons über der Lightbox an."
+
+#: admin/options.php:320
+#@ lbprojects
+msgid "Browse Images with Mouse Wheel"
+msgstr "Bl&auml;ttern mit dem Mausrad"
+
+#: admin/options.php:321
+#@ lbprojects
+msgid "Enable support for mouse wheel for image scrolling."
+msgstr "Aktiviere Unterst&uuml;tzung für das Bl&auml;ttern mit dem Mausrad."
+
+#: admin/options.php:328
+#@ lbprojects
+msgid "Autoplay"
+msgstr "Autoplay"
+
+#: admin/options.php:329
+#@ lbprojects
+msgid "Enable lightbox autoplay."
+msgstr "Aktiviere Autoplay für die Lightbox."
+
+#: admin/options.php:344
+#@ lbprojects
+msgid "Preview Images"
+msgstr "Vorschaubilder"
+
+#: admin/options.php:345
+#@ lbprojects
+msgid "Display thumbnail images below the lightbox."
+msgstr "Zeige Vorschaubilder unterhalb der Lightbox an."
+
+#: admin/options.php:352
+#@ lbprojects
+msgid "Browse Animation"
+msgstr "Bl&auml;ttern-Animation"
+
+#: admin/options.php:353
+#@ lbprojects
+msgid "Select the animation method for image browsing."
+msgstr "W&auml;hlen Sie einen Animations-Effekt für das Bl&auml;ttern."
+
+#: admin/options.php:358
+#: admin/options.php:367
+#@ lbprojects
+msgid "fade"
+msgstr "&uuml;berblenden"
+
+#: admin/options.php:358
+#: admin/options.php:367
+#@ lbprojects
+msgid "elastic"
+msgstr "elastisch"
+
+#: admin/options.php:358
+#: admin/options.php:367
+#@ lbprojects
+msgid "none"
+msgstr "kein"
+
+#: admin/options.php:361
+#@ lbprojects
+msgid "Opening Animation"
+msgstr "&Ouml;ffnen-Animation"
+
+#: admin/options.php:362
+#@ lbprojects
+msgid "Select the animation method for the lightbox opening and closing."
+msgstr "W&auml;hlen Sie einen Animations-Effekt für das &Ouml;ffnen und Schließen der Lightbox."
+
+#: admin/options.php:370
+#@ lbprojects
+msgid "Title Appearance"
+msgstr "Darstellung des Titels"
+
+#: admin/options.php:371
+#@ lbprojects
+msgid "Select the appearance of the image title."
+msgstr "W&auml;hlen Sie Darstellungs des Bildtitels aus."
+
+#: admin/options.php:376
+#@ lbprojects
+msgid "outside box"
+msgstr "außen in Box"
+
+#: admin/options.php:376
+#@ lbprojects
+msgid "inside"
+msgstr "innen"
+
+#: admin/options.php:376
+#@ lbprojects
+msgid "outside"
+msgstr "außen"
+
+#: admin/options.php:376
+#@ lbprojects
+msgid "overlay"
+msgstr "&uuml;berlagert"
+
+#: admin/options.php:336
+#@ lbprojects
+msgid "Autoplay Duration"
+msgstr "Autoplay Dauer"
+
+#: admin/options.php:337
+#@ lbprojects
+msgid "Enter the display duration for each image in millisecods."
+msgstr "Geben Sie die Anzeigedauer f&uuml;r die Einzelbilder in Millisekunden ein."
+
+#: admin/options.php:395
+#@ lbprojects
+msgid "Gallery Caption"
+msgstr "Bilduntertitel"
+
+#: admin/options.php:396
+#@ lbprojects
+msgid "Display image description below each gallery item."
+msgstr "Zeige Bildbeschreibung unter jedem Galeriebild an."
+
+#: functions/like_system_functions.php:96
+#: functions/like_system_functions.php:99
+#@ lbprojects
+msgid "I like this article"
+msgstr "Ich mag diesen Artikel"
+
+#: functions/custom_functions.php:100
+#@ lbprojects
+msgid "Likes"
+msgstr "Likes"
+
+#: admin/options.php:197
+#@ lbprojects
+msgid "Related Posts"
+msgstr "&Auml;hnliche Artikel"
+
+#: admin/options.php:198
+#@ lbprojects
+msgid "Display related posts below each post."
+msgstr "Zeige verwandte Artikel unter jedem Beitrag an."
+
+#: admin/options.php:225
+#@ lbprojects
+msgid "Like Button"
+msgstr "Like-Button"
+
+#: admin/options.php:226
+#@ lbprojects
+msgid "Display the like button for each post."
+msgstr "Zeige den Like-Button f&uuml;r jeden Artikel an."
+
+#: admin/options.php:232
+#@ lbprojects
+msgid "Exclude Pages from Search"
+msgstr "Seiten aus der Suche ausschließen"
+
+#: admin/options.php:233
+#@ lbprojects
+msgid "Check this option to exclude static pages from the site's search."
+msgstr "Aktivieren Sie diese Option, um statische Seiten aus der Suchfunktion auszuschließen."
+
+#: admin/options.php:379
+#@ lbprojects
+msgid "Gallery Pagination"
+msgstr "Galerie Paginierung"
+
+#: admin/options.php:380
+#@ lbprojects
+msgid "Enable pagination for Wordpress default gallery."
+msgstr "Aktivieren Sie die Paginierung für die Wordpress Standardgalerie."
+
+#: admin/options.php:387
+#@ lbprojects
+msgid "Number of gallery items"
+msgstr "Anzahl der Galeriebilder"
+
+#: admin/options.php:388
+#@ lbprojects
+msgid "Enter the number of gallery items being displayed on each gallery page."
+msgstr "Geben Sie die Anzahl der Galeriebilder ein, die pro Galerie-Seite angezeigt werden sollen."
+
+#: admin/options.php:146
+#@ lbprojects
+msgid "Maintenance Mode"
+msgstr "Wartungsmodus"
+
+#: admin/options.php:147
+#@ lbprojects
+msgid "Activate the maintenance mode to only allow administrators to visit the website."
+msgstr "Aktivieren Sie den Wartungsmodus, um nur Admininstratoren den Zugang zur Website zu erm&ouml;glichen."
+
+#: functions/custom_functions.php:46
+#@ lbprojects
+msgid "Maintenance, please come back soon."
+msgstr "Wartungsarbeiten, kommen Sie bitte sp&auml;ter noch einmal vorbei."
+
+#: admin/options.php:168
+#@ lbprojects
+msgid "External Links"
+msgstr "Externe Links"
+
+#: admin/options.php:169
+#@ lbprojects
+msgid "Force browsers to open external links in new window or tab."
+msgstr "Browser zwingen, externe Links in neuem Fenster oder Tab zu &ouml;ffnen."
+

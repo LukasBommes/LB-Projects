@@ -1,0 +1,200 @@
+++++++++++++++++++++++++++++++++ Changelog ++++++++++++++++++++++++++++++++
+
+Version 3.2:
+-slight design changes on attachment page
+-comments template added to attachment page
+-optional lightbox function for image galleries added
+-script for fixing iframe z-index issue added
+-added script to options panel for fading options depending on other options in and out
+-internal post like system added
+-column for post like count on admin post page added
+-support for shortcodes in sidebar widgets added
+-shortcodes for googlemaps and googledocs added
+-updated license to GNU GPL version 3.0
+-animation enqueuing issue in scroll to top javascript fixed
+-option for excluding static pages from search added
+-pagination for default gallery added
+-function for displaying post thumbnails in rss feed added
+-function for optional maintenance mode added
+-support for googlemaps api added via gmap3 plugin
+
+Version 3.1:
+-featured image column added to admin post page
+-display of author and article information as well as comment counter improved
+-semantic of footer widget areas improved (unordered list) and 4th widget area added
+-twitter widget added
+-design of social icons improved and new icon sprite image added
+-desing of footer-widgets improved
+-gallery widget for display of random images from the media library added
+-invalid tags from style.css header corrected
+-noscript warning added
+-new admin panel and options created from WP Theming option-framework
+-added option for hyperlink color
+-added option for custom background and header
+-layout bug in fullwidth template fixed
+-single post pagination optimized and next/previous post links added
+-bug in optionspanel framework fixed
+-jquery cookie plugin added and current state of comment box toggler safed in browser cookie
+-added article information and edit link to pages
+-translated comments from German into English
+-optimized structure of html header
+-optional second submenu level added to main navigation
+-added script for resizing the navigation automatically by appending overflowing items to submenu
+-front page slider integrated into new admin panel
+-typography options added
+-scroll to top button optimized
+-Google Webfonts added to typography options
+-added superfish supersubs plugin to automatically resize menu dropdowns
+-moved Google Analytics Tracking code to the functions.php
+
+Version 3.0:
+-display of article thumbnails optimized (smaller image size in categories, greater one in single post view)
+-added documentation in readme.txt
+-bug in jQuery script enqueuing fixed
+-featured post slider added to the frontpage / custom meta option added to post editor
+-jquery init scripts for navigation and slider deleted
+-featured slider from earlier build of version 3.0 optimized (infinite scroll, autoscroll, mouse and keayboard control)
+-added option for disabling featured slider
+-undefined index bug in 404.php fixed
+-comment toggle feature design and functionality optimized
+-deprecated argument in related post function deleted
+-jquery slidetoggle margin issue on comment-toggler fixed
+-support for attributes in colorboxes-shortcodes added (usage, e.g.: [colorbox color="red"])
+-added shortcode for spoilers [spoiler title="$title"]
+-added shortcode for accordion blocks [accordion title="$title" state="$state"]
+-minor design changes (e.g. rounded borders on input elements)
+-undefinded variable notices in contactform template fixed
+-javascript controlled default values for input elements in commentform and contactform template added
+-header positioning bug in IE7 fixed
+-added fontawesome webfont for font icons instead of images
+-several design issues fixed
+-font icons for comment form labels added, icon image files deleted
+-added login form to site header
+-design of searchbar improved
+-size of navigation wrapper and amount of possible menu items increased
+-option for disabling header searchform and login form added
+-searchform double id issue fixed
+-added appropiate theme URL
+-security issue in contactform.php fixed (html is now beeing escaped)
+-footer widget floating and positioning issue fixed
+-position of Google Analytics tracking code changed (directly before closing head-tag)
+-message for empty categories added
+-image path issue in child themes fixed
+-undefined object reference bug in breadcrumb.php fixed
+-enabled template functionality to either display particular front page article or the latest articles on the front page
+-issue with title on front page and article page fixed
+-screenshot.png updated
+-fixed header horizontal scrolling issue fixed
+-assimilated design of admin bar on front- and backend
+-added stylesheet for WordPress backend
+-undefinded index issue in about widget fixed
+-structure of sidebar and custom widgets changed to unordered list
+
+Version 2.9:
+-admin option for layout change added (display sidebar on the left instead of the right side)
+-stylesheet-enqueuing bug for proper usage of childthemes fixed
+-admin option for hiding the search form in the header added
+-fallback for main menu added (if no custom menu is set, all pages will be listed instead)
+-optimized style for better feedback on input elements
+-detached style for searchforms used in widget areas added
+-admin colorpicker option for custom colors added
+-menu fallback style bug from earlier build of version 2.9 fixed
+-ascii character issue in attachment.php in Google Chrome fixed
+-new design for article information on single post pages applied
+-several warnings and notices caused by wp_debug eliminated
+-visibility of edit-post-link optimized (depending on user permissions)
+-design issue of calendar-widget fixed
+-undefined index bugs in theme options panel fixed
+-admin options reset bug fixed
+-structure and design of theme options panel improved
+
+Version 2.8:
+-related posts list added to the content of a single post page
+-meeting W3C validation requirements for proper HTML markup
+-old hardcoded comment form replaced with automatically generated WordPress comment form
+-added new comment form to guestbook template
+-meeting WordPress Theme Development requirements
+-navigation-functions.php deleted and function-files reorganized
+-optimized headline semantics for better SEO
+-improved comment display using WordPress standard function, custom comment callback removed
+-usability of header navigation optimized (lower latency)
+-theme_functions.php code cleaned up
+-new homepage template for optional use instead of static home.php
+-new style for sticky posts / style for comment post author added
+-created png logo for better browser compatibility and new logo styling applied
+-show/hide button for comments-area added to the frontend
+-moved functions for custom styles from header to functions.php using wp_head hook
+
+Version 2.7:
+-bug in fullwidth-template fixed
+-several style issues fixed and design changes implemented
+-custom widget initialization assigned to widget init hook
+-sidebar widget for displaying about information of the author added
+-footer tagcloud display issue in Opera 11 fixed
+-archives and sitemap templates combined in one template (archives.php)
+-optional content box for meta information of the post author added
+-design of 404 template improved
+-random posts list added to the empty search result page
+
+Version 2.6:
+-contact form template improved
+-added description for widget areas
+-attachment.php for improved attachment display added
+-search string handling optimized
+-header design modifications (more minimalistic)
+-function for easier favicon joining added
+-recent posts widget improved
+-new styles for various html text features (abbr, ins, fieldset, etc.) added
+
+Version 2.5:
+-custom widgets (tagcloud, recent posts, twitter) added
+-contact form template added
+-directory tidied up (unecessary templates and image files deleted)
+-single post navigation optimized
+-stylesheet enqueuing added
+-jquery slider and navigation outsourced
+
+Version 2.4:
+-code quality of functions.php optimized
+-added support for WordPress post-formats
+-custom style for login page added
+-optimized comments functions (password protection, etc.)
+-added stylesheet for TinyMCE editor
+-safety issue in search.php fixed
+
+Version 2.3:
+-added localization and translation support (de_DE, en_GB)
+
+Version 2.2:
+-added shortcodes for custom post content
+-added styling for tables, quotations and code
+-theme directory tidied up
+-added custom filter for wp_title function
+
+Version 2.1:
+-script enqueueing added
+-external library for jQuery defined
+-meeting new wordpress 3.4 requirements
+-outsourcing admin panel files
+
+Version 2.0:
+-added support for post-thumbnails
+-new footer/header design
+-jquery navigation with wordpress menu-functionality added
+
+Version 1.3:
+-admin options panel added
+-background pattern added
+
+Version 1.2:
+-page.php and single.php added
+-article information display optimized
+
+Version 1.1:
+-improved content styling
+-matching Wordpress Theme Unit standards and W3C validation
+
+Vesion 1.0:
+-Initial Release
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

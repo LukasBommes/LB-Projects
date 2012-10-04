@@ -1,0 +1,84 @@
+body.login {
+	background-color: #efefef;
+}
+
+body.login div#login {
+	position: relative;
+	width: 350px;
+	padding: 100px 0 60px 0;
+	background: transparent url("../images/custom_login_background.png") no-repeat 0 100px;
+}
+
+body.login div#login h1 a {
+	margin-top: 20px;
+	padding: 0;
+	width: auto;
+	height: 76px;
+	background: none;
+}
+
+body.login div#login form#loginform,
+body.login div#login form#lostpasswordform {
+	margin: 0;
+	padding-left: 35px;
+	padding-right: 35px;
+	height: 136px;
+	background: none;
+	border: none;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	-o-box-shadow: none;
+	-ms-box-shadow: none;
+}
+
+body.login div#login p label {
+	color: #3a3a3a;
+}
+
+body.login div#login input#user_login,
+body.login div#login input#user_pass {
+	font-size: 20px;
+}
+
+body.login div#login p#nav {
+	margin: 35px 0 0 30px;
+	padding: 0;
+	display: inline-block;
+	text-shadow: none;
+}
+
+body.login div#login p#nav:after {
+	content: "\00a0|\00a0";
+}
+
+body.login div#login p#backtoblog {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	text-shadow: none;
+}
+
+body.login div#login p#nav a,
+body.login div#login p#nav a:active,
+body.login div#login p#nav a:visited,
+body.login div#login p#backtoblog a,
+body.login div#login p#backtoblog a:active,
+body.login div#login p#backtoblog a:visited {
+	text-decoration: none;
+	color: #3a3a3a !important;
+}
+
+body.login div#login p#nav a:hover,
+body.login div#login p#backtoblog a:hover {
+	border-bottom: 1px dotted #3a3a3a;
+}
+
+body.login div#login p.message,
+body.login div#login div#login_error {
+	position: absolute;
+	left: 47px;
+	top: 516px;
+	margin: 0;
+	width: 230px;
+}
