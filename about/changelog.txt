@@ -17,6 +17,8 @@ Version 3.2:
 -function for displaying post thumbnails in rss feed added
 -function for optional maintenance mode added
 -support for googlemaps api added via gmap3 plugin
+-slight design changes of buttons and navigation elements
+-added post permalink to featured slider images
 
 Version 3.1:
 -featured image column added to admin post page

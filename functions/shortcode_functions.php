@@ -77,23 +77,22 @@ add_shortcode('accordion', 'LB_accordion' );
 
 // Google Maps
 function LB_googlemaps($atts, $content = null) {
-	extract(shortcode_atts(array( 'width' => '658', 'height' => '350', 'zoom' => 15, 'lat' => '', 'lng' => '', 'marker' => '' ), $atts));
+	extract(shortcode_atts(array( 'width' => '658', 'height' => '350', 'zoom' => 15, 'address' => '' ), $atts));
 	return '<script type="text/javascript">
 				/* <![CDATA[ */
 				$(document).ready(function(){
 					$(".googlemaps").gmap3(
-						{ action: \'init\',
-							options: {
-								center: [' . $lat . ',' . $lng . '],
-								zoom: ' . $zoom . ',
-								mapTypeControl: true,
-								mapTypeControlOptions: {
-									style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
+						{ action : \'getLatLng\',
+							address: \'' . $address . '\',
+							callback: function(result){
+								if(result){
+									$(this).gmap3({action: \'setCenter\', args:[ result[0].geometry.location ]},
+									{action: \'setZoom\', args:[' . $zoom . ']});
 								}
 							}
 						},
 						{ action: \'addMarker\',
-							address:\'' . $marker . '\'
+							address: \'' . $address . '\'
 						}
 					);
 				});	
@@ -101,7 +100,7 @@ function LB_googlemaps($atts, $content = null) {
 			</script>
 			<div class="googlemaps-container">
 				<div class="googlemaps" style="width:' . $width . 'px; height:' . $height . 'px;"></div>
-			</div>'; 
+			</div>';
 }
 add_shortcode('googlemap', 'LB_googlemaps');
 

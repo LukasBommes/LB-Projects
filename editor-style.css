@@ -27,7 +27,6 @@ body#tinymce {
 	color: #3a3a3a;
 }
 
-
 ::selection { background:#d54e21; color:#fff; }
 ::-moz-selection { background:#d54e21; color:#fff; }
 ::-webkit-selection { background:#d54e21; color:#fff; }
@@ -229,8 +228,6 @@ img.alignnone,
 	-webkit-border-radius: 0;
 	-o-border-radius: 0;
 	-ms-border-radius: 0;
-	
-
 }
 
 .wp-caption img {
@@ -248,24 +245,30 @@ img.alignnone,
 a.button,
 a.button:active,
 a.button:visited {
-	display: inline-block;
 	margin: 10px 0;
-	padding: 10px;
-	color: #fff !important;
-	background-color: #d54e21;
-	transition: background-color .15s;
-	-moz-transition: background-color .15s;
-	-webkit-transition: background-color .15s; 
-	-o-transition: background-color .15s;
-	-ms-transition: background-color .15s;
-	border-radius: 6px;
-	-moz-border-radius: 6px;
-	-webkit-border-radius: 6px;
-	-o-border-radius: 6px;
-	-ms-border-radius: 6px;
+	padding: 6px 10px;
+	display: inline-block;
+	color: #777;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-o-border-radius: 2px;
+	-ms-border-radius: 2px;
+	transition: all .15s;
+	-moz-transition: all .15s;
+	-webkit-transition: all .15s; 
+	-o-transition: all .15s;
+	-ms-transition: all .15s;
 }
 
 a.button:hover {
 	text-decoration: none;
-	background-color: #33363b;
+	border: 1px solid #b5b5b5;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+	-o-box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+	-ms-box-shadow: 0 2px 2px rgba(0,0,0,0.1);
 }

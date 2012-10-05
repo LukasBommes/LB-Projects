@@ -87,7 +87,7 @@ function LB_load_scripts() {
 	wp_enqueue_script('lightbox-mousewheel', get_template_directory_uri() . '/lightbox/fancybox-mousewheel.js');
 	
 	// Google Maps scripts
-	wp_enqueue_script('googlemaps-api', 'http://maps.google.com/maps/api/js?sensor=false');
+	wp_enqueue_script('googlemaps-load', get_template_directory_uri() . '/js/googlemaps-load.js');
 	wp_enqueue_script('googlemaps-plugin', get_template_directory_uri() . '/js/googlemaps-plugin.js');
 	
 }

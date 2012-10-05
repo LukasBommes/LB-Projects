@@ -26,7 +26,7 @@
 				
 					<?php LB_thumbnail('cat'); ?>
 
-					<?php the_content( __('read more', 'lbprojects') ); ?>
+					<?php the_content( '<i class="icon-plus"></i> ' . __('read more', 'lbprojects') ); ?>
 
 				</div>
 
