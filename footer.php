@@ -86,12 +86,19 @@
 
 	<div id="legacy-footer-wrapper">
 
-		<?php if( of_get_option('footer_text') ) : ?>
-			<span id="copy"><?php echo of_get_option('footer_text'); ?></span>
-		<?php endif; ?>
-
-		<span id="credits"><?php _e('Powered by', 'lbprojects'); ?> <a href="http://wordpress.org/" target="blank"><?php _e('WordPress', 'lbprojects'); ?></a> | <?php _e('Theme developed by', 'lbprojects'); ?> <a href="http://projects.lb-home.de/"><?php _e('LB-Projects', 'lbprojects'); ?></a></span>
-
+			<div class="footer-nav-wrapper">
+				<?php wp_nav_menu( array( 'theme_location'  => 'footer', 'fallback_cb' => 'none', 'depth' => 1 ) ); ?>
+			</div>
+			
+			<div class="clear"></div>
+		
+			<div class="copyright-info">
+				<?php if( of_get_option('footer_text') ) : ?>
+					<?php echo of_get_option('footer_text') . ', '; ?>
+				<?php endif; ?>
+				<?php _e('Theme developed by', 'lbprojects'); ?> <a href="http://projects.lb-home.de/"><?php _e('LB-Projects', 'lbprojects'); ?></a></span>
+			</div>
+		
 	</div>
 
 	<div class="clear"></div>

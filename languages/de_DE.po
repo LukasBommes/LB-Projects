@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: LB-Projects v3.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-10-03 16:43:29+0000\n"
+"PO-Revision-Date: 2012-10-08 18:53:42+0000\n"
 "Last-Translator: lukas-bommes <info@lb-home.de>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -20,41 +20,39 @@ msgstr ""
 "X-Textdomain-Support: yes"
 
 #: contactform.php:100
-#: functions/custom_functions.php:172
+#: functions/custom_functions.php:178
 #@ lbprojects
 msgid "Name"
 msgstr "Name"
 
 #: contactform.php:105
-#: functions/custom_functions.php:175
+#: functions/custom_functions.php:181
 #@ lbprojects
 msgid "Email"
 msgstr "Email"
 
-#: admin/options.php:259
+#: admin/options.php:266
 #: footer.php:44
 #@ lbprojects
 msgid "YouTube"
 msgstr "YouTube"
 
-#: footer.php:93
 #: functions/custom_functions.php:37
 #@ lbprojects
 msgid "Powered by"
 msgstr "Powered by"
 
-#: footer.php:93
 #: functions/custom_functions.php:37
 #@ lbprojects
 msgid "WordPress"
 msgstr "WordPress"
 
-#: footer.php:93
+#: footer.php:99
 #@ lbprojects
 msgid "Theme developed by"
 msgstr "Theme entwickelt von"
 
-#: footer.php:93
+#: footer.php:99
 #: functions/custom_functions.php:37
 #@ lbprojects
 msgid "LB-Projects"
@@ -139,9 +137,9 @@ msgstr "auf YouTube"
 #: archives.php:35
 #: attachment.php:64
 #: contactform.php:95
-#: front-page.php:135
+#: front-page.php:137
 #: fullwidth.php:37
-#: functions/custom_functions.php:219
+#: functions/custom_functions.php:225
 #: index.php:29
 #: page.php:31
 #: search.php:37
@@ -171,13 +169,13 @@ msgid "Error 404"
 msgstr "Fehler 404"
 
 #: functions/breadcrumb_functions.php:94
-#: functions/content_functions.php:254
+#: functions/content_functions.php:271
 #: functions/gallery_pagination.php:81
 #@ lbprojects
 msgid "Page"
 msgstr "Seite"
 
-#: functions/content_functions.php:254
+#: functions/content_functions.php:271
 #@ lbprojects
 msgid "of"
 msgstr "von"
@@ -228,7 +226,7 @@ msgid "Tags"
 msgstr "Schlagw&ouml;rter"
 
 #: archives.php:39
-#: functions/content_functions.php:232
+#: functions/content_functions.php:249
 #@ lbprojects
 msgid "Pages"
 msgstr "Seiten"
@@ -258,66 +256,66 @@ msgstr "Logo"
 msgid "Custom CSS"
 msgstr "Eigenes CSS"
 
-#: admin/options.php:244
+#: admin/options.php:251
 #@ lbprojects
 msgid "Display RSS Button"
 msgstr "RSS Button anzeigen"
 
-#: admin/options.php:251
+#: admin/options.php:258
 #@ lbprojects
 msgid "Display Social Buttons"
 msgstr "Social Buttons anzeigen"
 
-#: admin/options.php:260
+#: admin/options.php:267
 #@ lbprojects
 msgid "Enter your YouTube account name."
 msgstr "Geben Sie Ihren YouTube Benutzernamen ein."
 
-#: admin/options.php:267
+#: admin/options.php:274
 #: footer.php:28
 #@ lbprojects
 msgid "Facebook"
 msgstr "Facebook"
 
-#: admin/options.php:268
+#: admin/options.php:275
 #@ lbprojects
 msgid "Enter the URL to your Facebook profile."
 msgstr "Geben Sie die URL zu Ihrem Facebook-Profil ein."
 
-#: admin/options.php:275
+#: admin/options.php:282
 #: footer.php:32
 #: widgets/twitter_widget.php:46
 #@ lbprojects
 msgid "Twitter"
 msgstr "Twitter"
 
-#: admin/options.php:276
+#: admin/options.php:283
 #@ lbprojects
 msgid "Enter the URL to your Twitter profile."
 msgstr "Geben Sie die URL zu Ihrem Twitter-Profil ein."
 
-#: admin/options.php:283
+#: admin/options.php:290
 #@ lbprojects
 msgid "Googleplus"
 msgstr "Googleplus"
 
-#: admin/options.php:284
+#: admin/options.php:291
 #@ lbprojects
 msgid "Enter the URL to your Googleplus profile."
 msgstr "Geben Sie die URL zu Ihrem Googleplus-Profil ein."
 
-#: admin/options.php:291
+#: admin/options.php:298
 #: footer.php:40
 #@ lbprojects
 msgid "Linkedin"
 msgstr "Linkedin"
 
-#: admin/options.php:292
+#: admin/options.php:299
 #@ lbprojects
 msgid "Enter the URL to your Linkedin profile."
 msgstr "Geben Sie die URL zu Ihrem Linkedin-Profil ein."
 
-#: admin/options.php:424
+#: admin/options.php:431
 #@ lbprojects
 msgid "Display Slideshow"
 msgstr "Slideshow anzeigen"
@@ -406,7 +404,7 @@ msgstr "Ihre Nachricht konnte nicht gesendet werden. Bitte &uuml;berpr&uuml;fen 
 msgid "Your message has been submitted successfully."
 msgstr "Ihre Nachricht wurde erfolgreich gesendet."
 
-#: functions.php:44
+#: functions.php:45
 #@ lbprojects
 msgid "The main sidebar widget area"
 msgstr "Der Haupt-Widgetbereich für die Sidebar"
@@ -488,7 +486,7 @@ msgstr "URL zur Ihrer About-Seite:"
 msgid "Post Archives"
 msgstr "Artikelarchive"
 
-#: functions/content_functions.php:103
+#: functions/content_functions.php:120
 #@ lbprojects
 msgid "About"
 msgstr "&Uuml;ber"
@@ -529,24 +527,24 @@ msgstr "W&auml;hlen Sie die Farbe der Kopfzeile aus."
 msgid "Footer Color"
 msgstr "Farbe der Fu&szlig;zeile"
 
-#: functions/content_functions.php:136
-#: functions/content_functions.php:166
+#: functions/content_functions.php:153
+#: functions/content_functions.php:183
 #@ lbprojects
 msgid "posted on"
 msgstr "ver&ouml;ffentlicht am"
 
-#: functions/content_functions.php:139
+#: functions/content_functions.php:156
 #@ lbprojects
 msgid "in"
 msgstr "in"
 
-#: functions/content_functions.php:138
-#: functions/content_functions.php:168
+#: functions/content_functions.php:155
+#: functions/content_functions.php:185
 #@ lbprojects
 msgid "at"
 msgstr "um"
 
-#: admin/options.php:204
+#: admin/options.php:211
 #@ lbprojects
 msgid "Thumbnails"
 msgstr "Artikelbilder"
@@ -561,12 +559,12 @@ msgstr "Bevorzugter Artikel"
 msgid "Display post in the featured post slider on the homepage."
 msgstr "Zeige den Artikel im Featured-Post Slider auf der Startseite an."
 
-#: front-page.php:103
+#: front-page.php:105
 #@ lbprojects
 msgid "Previous Posts"
 msgstr "Vorige Artikel"
 
-#: front-page.php:104
+#: front-page.php:106
 #@ lbprojects
 msgid "Next Posts"
 msgstr "N&auml;chste Artikel"
@@ -576,44 +574,44 @@ msgstr "N&auml;chste Artikel"
 msgid "Custom Title:"
 msgstr "Eigener Titel:"
 
-#: functions/content_functions.php:130
+#: functions/content_functions.php:147
 #@ lbprojects
 msgid "Edit This"
 msgstr "Bearbeiten"
 
-#: functions/custom_functions.php:178
+#: functions/custom_functions.php:184
 #@ lbprojects
 msgid "Website"
 msgstr "Webseite"
 
-#: functions/custom_functions.php:149
+#: functions/custom_functions.php:155
 #@ lbprojects
 msgid "Username"
 msgstr "Benutzername"
 
-#: functions/custom_functions.php:153
+#: functions/custom_functions.php:159
 #@ lbprojects
 msgid "Password"
 msgstr "Passwort"
 
-#: functions/custom_functions.php:155
+#: functions/custom_functions.php:161
 #@ lbprojects
 msgid "Remember me?"
 msgstr "Erinnere dich?"
 
-#: functions/custom_functions.php:157
+#: functions/custom_functions.php:163
 #: header.php:81
 #@ lbprojects
 msgid "Sign in"
 msgstr "Einloggen"
 
-#: functions/custom_functions.php:239
+#: functions/custom_functions.php:245
 #: header.php:73
 #@ lbprojects
 msgid "Search"
 msgstr "Suche"
 
-#: front-page.php:149
+#: front-page.php:151
 #: index.php:43
 #@ lbprojects
 msgid "This category is empty!"
@@ -624,25 +622,25 @@ msgstr "Diese Kategorie enth&auml;lt keine Artikel!"
 msgid "Sign out"
 msgstr "Ausloggen"
 
-#: admin/options.php:175
+#: admin/options.php:182
 #@ lbprojects
 msgid "Admin Style"
 msgstr "Admin Style"
 
-#: functions/custom_functions.php:82
+#: functions/custom_functions.php:88
 #@ lbprojects
 msgid "Featured"
 msgstr "Artikelbild"
 
-#: functions/content_functions.php:152
+#: functions/content_functions.php:169
 #@ lbprojects
 msgid "written by"
 msgstr "geschrieben von"
 
-#: functions.php:45
 #: functions.php:46
 #: functions.php:47
 #: functions.php:48
+#: functions.php:49
 #@ lbprojects
 msgid "Optional widget area for the site footer"
 msgstr "Optionaler Widget-Bereich f&uuml;r den Footer"
@@ -885,92 +883,92 @@ msgstr "Erweiterte Einstellungen"
 msgid "Here you can add custom properties to the stylesheet, e.g. .button{color:green;}. They will be automatically added to the website's header."
 msgstr "Hier k&ouml;nnen Sie eigene Erg&auml;nzungen zum Stylesheet hinzuf&uuml;gen, z.B. .button{color:green;}. Sie werden automatisch zum Seitenheader hinzugef&uuml;gt."
 
-#: admin/options.php:176
+#: admin/options.php:183
 #@ lbprojects
 msgid "Use the custom backend stylesheet."
 msgstr "Das benutzerdefinierte Backend-Design verwenden."
 
-#: admin/options.php:182
+#: admin/options.php:189
 #@ lbprojects
 msgid "Header Forms"
 msgstr "Header-Formulare"
 
-#: admin/options.php:183
+#: admin/options.php:190
 #@ lbprojects
 msgid "Check the features you want to be displayed in the site's header."
 msgstr "W&auml;hlen Sie die Funktionen aus, die im Header angezeigt werden sollen."
 
-#: admin/options.php:190
+#: admin/options.php:197
 #@ lbprojects
 msgid "About the author Widget"
 msgstr "&Uuml;ber den Autor Widget"
 
-#: admin/options.php:191
+#: admin/options.php:198
 #@ lbprojects
 msgid "Display a widget with the author meta after each post."
 msgstr "Zeige ein Widget mit Autoreninformationen nach jedem Artikel an."
 
-#: admin/options.php:205
+#: admin/options.php:212
 #@ lbprojects
 msgid "Display featured post thumbnails for each post on archive pages."
 msgstr "Zeige Artikelbilder f&uuml;r jeden Artikel auf Archivseiten an."
 
-#: admin/options.php:211
+#: admin/options.php:218
 #@ lbprojects
 msgid "Breadcrumb Navigation"
 msgstr "Breadcrumb Navigation"
 
-#: admin/options.php:212
+#: admin/options.php:219
 #@ lbprojects
 msgid "Display the Breadcrumb-Navigation at the top of each page."
 msgstr "Zeige die Breadcrumb Navigation oben auf jeder Seite an."
 
-#: admin/options.php:240
+#: admin/options.php:247
 #@ lbprojects
 msgid "Footer Buttons"
 msgstr "Footer Buttons"
 
-#: admin/options.php:245
+#: admin/options.php:252
 #@ lbprojects
 msgid "Display RSS Buttons in the site's footer."
 msgstr "Zeige den RSS Button im Seitenfooter an."
 
-#: admin/options.php:252
+#: admin/options.php:259
 #@ lbprojects
 msgid "Enable Social Buttons in the site's footer."
 msgstr "Social Buttons im Seitenfooter aktivieren."
 
-#: admin/options.php:403
+#: admin/options.php:410
 #@ lbprojects
 msgid "Slider Options"
 msgstr "Slider Optionen"
 
-#: admin/options.php:407
+#: admin/options.php:414
 #@ lbprojects
 msgid "Featured Post Slider"
 msgstr "Featured Post Slider"
 
-#: admin/options.php:412
+#: admin/options.php:419
 #@ lbprojects
 msgid "Enable Featured Post Slider"
 msgstr "Aktiviere Featured Post Slider"
 
-#: admin/options.php:413
+#: admin/options.php:420
 #@ lbprojects
 msgid "Enable featured post slider on the front page."
 msgstr "Aktiviere den Featured Post Slider auf der Startseite."
 
-#: admin/options.php:419
+#: admin/options.php:426
 #@ lbprojects
 msgid "Front Page Slideshow"
 msgstr "Startseiten Slideshow"
 
-#: admin/options.php:420
+#: admin/options.php:427
 #@ lbprojects
 msgid "The front page slider will contain large images and text. That allows you to focus on special content and get high clickrates on this specific content. If you do not want to use the slider uncheck the option below."
 msgstr "Der Startseiten-Slider enth&auml;lt Bilder und Text. Das erlaubt es Ihnen, spezielle Inhalte hervorzuheben und hohe Klickraten f&uuml;r diese Inhalte zu generieren. Wenn Sie den Slider nicht verwenden m&ouml;chten, deaktivieren Sie die Option unten."
 
-#: admin/options.php:425
+#: admin/options.php:432
 #@ lbprojects
 msgid "Enable image slideshow on the front page."
 msgstr "Aktiviere die Bilder-Slideshow auf der Startseite."
@@ -1010,12 +1008,12 @@ msgstr "Mit dem Rest der Seite mitscrollen"
 msgid "Stick to top of browser window"
 msgstr "Am oberen Browserfensterrand fixieren"
 
-#: admin/options.php:187
+#: admin/options.php:194
 #@ lbprojects
 msgid "Login Form"
 msgstr "Anmeldeformular"
 
-#: admin/options.php:187
+#: admin/options.php:194
 #@ lbprojects
 msgid "Search Form"
 msgstr "Suchformular"
@@ -1055,17 +1053,17 @@ msgstr "Header Bild"
 msgid "The header image should be 1000 pixels width and about 200 pixels height."
 msgstr "Das Header-Bild sollte 1000 Pixel breit und etwa 200 Pixel hoch sein."
 
-#: functions/content_functions.php:238
+#: functions/content_functions.php:255
 #@ lbprojects
 msgid "Previous Post"
 msgstr "Voriger Artikel"
 
-#: functions/content_functions.php:239
+#: functions/content_functions.php:256
 #@ lbprojects
 msgid "Next Post"
 msgstr "N&auml;chster Artikel"
 
-#: functions/content_functions.php:169
+#: functions/content_functions.php:186
 #@ lbprojects
 msgid "by"
 msgstr "von"
@@ -1085,7 +1083,6 @@ msgstr "Link"
 msgid "Text"
 msgstr "Text"
 
-#: admin/options.php:432
 #: admin/options.php:439
 #: admin/options.php:446
 #: admin/options.php:453
@@ -1095,11 +1092,12 @@ msgstr "Text"
 #: admin/options.php:481
 #: admin/options.php:488
 #: admin/options.php:495
+#: admin/options.php:502
 #@ lbprojects
 msgid "Slider Image"
 msgstr "Slider Bild"
 
-#: admin/options.php:408
+#: admin/options.php:415
 #@ lbprojects
 msgid "This Option allows you to add posts to a slider on your static frontpage. Simply go to the WordPress post editor and check the Option in the custom meta box \"Featured Post\" to append the article to the slider."
 msgstr "Diese Option erlaubt Ihnen das Hinzuf&uuml;gen von favorisierten Artikeln zu einem Slider auf der Startseite. Rufen Sie einen Artikel im Editor auf und aktivieren die Option in der Meta-Box \"Featured Post\" um einen Artikel zum Slider hinzuzuf&uuml;gen."
@@ -1119,12 +1117,12 @@ msgstr "Einstellungen f&uuml;r Schriftgr&ouml;ße, Schritart und Stil."
 msgid "Scroll to top"
 msgstr "Nach oben scrollen"
 
-#: admin/options.php:218
+#: admin/options.php:225
 #@ lbprojects
 msgid "Scroll to Top Button"
 msgstr "Scroll to Top Button"
 
-#: admin/options.php:219
+#: admin/options.php:226
 #@ lbprojects
 msgid "Display the Scroll to Top Button in the bottom right corner."
 msgstr "Zeige den Scroll to Top Button in der unteren rechten Ecke an."
@@ -1144,206 +1142,206 @@ msgstr "N&auml;chstes Bild"
 msgid "Return to the article"
 msgstr "Zur&uuml;ck zum Artikel"
 
-#: admin/options.php:300
+#: admin/options.php:307
 #@ lbprojects
 msgid "Gallery Options"
 msgstr "Galerie Optionen"
 
-#: admin/options.php:304
+#: admin/options.php:311
 #@ lbprojects
 msgid "Gallery Lightbox"
 msgstr "Galerie Lightbox"
 
-#: admin/options.php:305
+#: admin/options.php:312
 #@ lbprojects
 msgid "Enable lightbox effect for image gallerys."
 msgstr "Aktiviere Lightbox Effekt für Bildergalerien."
 
-#: admin/options.php:312
+#: admin/options.php:319
 #@ lbprojects
 msgid "Navigation Buttons"
 msgstr "Navigations-Buttons"
 
-#: admin/options.php:313
+#: admin/options.php:320
 #@ lbprojects
 msgid "Display buttons with navigation elements on top of the lightbox."
 msgstr "Zeige Navigations-Buttons über der Lightbox an."
 
-#: admin/options.php:320
+#: admin/options.php:327
 #@ lbprojects
 msgid "Browse Images with Mouse Wheel"
 msgstr "Bl&auml;ttern mit dem Mausrad"
 
-#: admin/options.php:321
+#: admin/options.php:328
 #@ lbprojects
 msgid "Enable support for mouse wheel for image scrolling."
 msgstr "Aktiviere Unterst&uuml;tzung für das Bl&auml;ttern mit dem Mausrad."
 
-#: admin/options.php:328
+#: admin/options.php:335
 #@ lbprojects
 msgid "Autoplay"
 msgstr "Autoplay"
 
-#: admin/options.php:329
+#: admin/options.php:336
 #@ lbprojects
 msgid "Enable lightbox autoplay."
 msgstr "Aktiviere Autoplay für die Lightbox."
 
-#: admin/options.php:344
+#: admin/options.php:351
 #@ lbprojects
 msgid "Preview Images"
 msgstr "Vorschaubilder"
 
-#: admin/options.php:345
+#: admin/options.php:352
 #@ lbprojects
 msgid "Display thumbnail images below the lightbox."
 msgstr "Zeige Vorschaubilder unterhalb der Lightbox an."
 
-#: admin/options.php:352
+#: admin/options.php:359
 #@ lbprojects
 msgid "Browse Animation"
 msgstr "Bl&auml;ttern-Animation"
 
-#: admin/options.php:353
+#: admin/options.php:360
 #@ lbprojects
 msgid "Select the animation method for image browsing."
 msgstr "W&auml;hlen Sie einen Animations-Effekt für das Bl&auml;ttern."
 
-#: admin/options.php:358
-#: admin/options.php:367
+#: admin/options.php:365
+#: admin/options.php:374
 #@ lbprojects
 msgid "fade"
 msgstr "&uuml;berblenden"
 
-#: admin/options.php:358
-#: admin/options.php:367
+#: admin/options.php:365
+#: admin/options.php:374
 #@ lbprojects
 msgid "elastic"
 msgstr "elastisch"
 
-#: admin/options.php:358
-#: admin/options.php:367
+#: admin/options.php:365
+#: admin/options.php:374
 #@ lbprojects
 msgid "none"
 msgstr "kein"
 
-#: admin/options.php:361
+#: admin/options.php:368
 #@ lbprojects
 msgid "Opening Animation"
 msgstr "&Ouml;ffnen-Animation"
 
-#: admin/options.php:362
+#: admin/options.php:369
 #@ lbprojects
 msgid "Select the animation method for the lightbox opening and closing."
 msgstr "W&auml;hlen Sie einen Animations-Effekt für das &Ouml;ffnen und Schließen der Lightbox."
 
-#: admin/options.php:370
+#: admin/options.php:377
 #@ lbprojects
 msgid "Title Appearance"
 msgstr "Darstellung des Titels"
 
-#: admin/options.php:371
+#: admin/options.php:378
 #@ lbprojects
 msgid "Select the appearance of the image title."
 msgstr "W&auml;hlen Sie Darstellungs des Bildtitels aus."
 
-#: admin/options.php:376
+#: admin/options.php:383
 #@ lbprojects
 msgid "outside box"
 msgstr "außen in Box"
 
-#: admin/options.php:376
+#: admin/options.php:383
 #@ lbprojects
 msgid "inside"
 msgstr "innen"
 
-#: admin/options.php:376
+#: admin/options.php:383
 #@ lbprojects
 msgid "outside"
 msgstr "außen"
 
-#: admin/options.php:376
+#: admin/options.php:383
 #@ lbprojects
 msgid "overlay"
 msgstr "&uuml;berlagert"
 
-#: admin/options.php:336
+#: admin/options.php:343
 #@ lbprojects
 msgid "Autoplay Duration"
 msgstr "Autoplay Dauer"
 
-#: admin/options.php:337
+#: admin/options.php:344
 #@ lbprojects
 msgid "Enter the display duration for each image in millisecods."
 msgstr "Geben Sie die Anzeigedauer f&uuml;r die Einzelbilder in Millisekunden ein."
 
-#: admin/options.php:395
+#: admin/options.php:402
 #@ lbprojects
 msgid "Gallery Caption"
 msgstr "Bilduntertitel"
 
-#: admin/options.php:396
+#: admin/options.php:403
 #@ lbprojects
 msgid "Display image description below each gallery item."
 msgstr "Zeige Bildbeschreibung unter jedem Galeriebild an."
 
-#: functions/like_system_functions.php:96
-#: functions/like_system_functions.php:99
+#: functions/like_system_functions.php:97
+#: functions/like_system_functions.php:100
 #@ lbprojects
 msgid "I like this article"
 msgstr "Ich mag diesen Artikel"
 
-#: functions/custom_functions.php:100
+#: functions/custom_functions.php:106
 #@ lbprojects
 msgid "Likes"
 msgstr "Likes"
 
-#: admin/options.php:197
+#: admin/options.php:204
 #@ lbprojects
 msgid "Related Posts"
 msgstr "&Auml;hnliche Artikel"
 
-#: admin/options.php:198
+#: admin/options.php:205
 #@ lbprojects
 msgid "Display related posts below each post."
 msgstr "Zeige verwandte Artikel unter jedem Beitrag an."
 
-#: admin/options.php:225
+#: admin/options.php:232
 #@ lbprojects
 msgid "Like Button"
 msgstr "Like-Button"
 
-#: admin/options.php:226
+#: admin/options.php:233
 #@ lbprojects
 msgid "Display the like button for each post."
 msgstr "Zeige den Like-Button f&uuml;r jeden Artikel an."
 
-#: admin/options.php:232
+#: admin/options.php:239
 #@ lbprojects
 msgid "Exclude Pages from Search"
 msgstr "Seiten aus der Suche ausschließen"
 
-#: admin/options.php:233
+#: admin/options.php:240
 #@ lbprojects
 msgid "Check this option to exclude static pages from the site's search."
 msgstr "Aktivieren Sie diese Option, um statische Seiten aus der Suchfunktion auszuschließen."
 
-#: admin/options.php:379
+#: admin/options.php:386
 #@ lbprojects
 msgid "Gallery Pagination"
 msgstr "Galerie Paginierung"
 
-#: admin/options.php:380
+#: admin/options.php:387
 #@ lbprojects
 msgid "Enable pagination for Wordpress default gallery."
 msgstr "Aktivieren Sie die Paginierung für die Wordpress Standardgalerie."
 
-#: admin/options.php:387
+#: admin/options.php:394
 #@ lbprojects
 msgid "Number of gallery items"
 msgstr "Anzahl der Galeriebilder"
 
-#: admin/options.php:388
+#: admin/options.php:395
 #@ lbprojects
 msgid "Enter the number of gallery items being displayed on each gallery page."
 msgstr "Geben Sie die Anzahl der Galeriebilder ein, die pro Galerie-Seite angezeigt werden sollen."
@@ -1372,4 +1370,29 @@ msgstr "Externe Links"
 #@ lbprojects
 msgid "Force browsers to open external links in new window or tab."
 msgstr "Browser zwingen, externe Links in neuem Fenster oder Tab zu &ouml;ffnen."
+
+#: functions.php:24
+#@ lbprojects
+msgid "Header-Navigation"
+msgstr "Kopfzeilen-Men&uuml;"
+
+#: functions.php:25
+#@ lbprojects
+msgid "Footer-Navigation"
+msgstr "Fu&szlig;zeilen-Men&uuml;"
+
+#: admin/options.php:175
+#@ lbprojects
+msgid "External Link Image"
+msgstr "Bild f&uuml;r externen Link"
+
+#: admin/options.php:176
+#@ lbprojects
+msgid "Mark external links with an image."
+msgstr "Markiere externe Links mit einem Bild."
+
+#: functions/content_functions.php:100
+#@ lbprojects
+msgid "Dismiss"
+msgstr "Ausblenden"
 

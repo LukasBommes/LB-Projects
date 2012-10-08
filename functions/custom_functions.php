@@ -53,10 +53,16 @@ add_action('get_header', 'LB_maintenance_mode');
 // Optionally open external links in new tab or window
 function LB_external_links() {
 	if( of_get_option('external_links') ) {
+	
+		if( of_get_option('external_links_marker') ) {
+			$external_link_marker = '<sup class="external-link"><i class="icon-external-link"></i></sup>';
+		}
+		
 		echo '<script type="text/javascript">
 				/* <![CDATA[ */
 				$(document).ready(function(){
 					$("a[href^=\'http:\']").not("[href*=\'' . site_url() . '\']").attr(\'target\',\'_blank\');
+					$(".entry a[href^=\'http:\']").not("[href*=\'' . site_url() . '\']").append(\'' . $external_link_marker . '\');
 				});
 				/* ]]> */
 			</script>';
@@ -337,7 +343,6 @@ function LB_style_options() {
 		.'#article-wrapper #related-posts ul li span a:hover { background-color:' . of_get_option('link_color') . ';}'
 		.'#article-wrapper #rand-posts ul li span a:hover { background-color:' . of_get_option('link_color') . ';}'
 		.'#toggle-comment:hover { background-color:' . of_get_option('link_color') . ';}'				
-		.'#breadcrumb a:hover { color:' . of_get_option('link_color') . ';}'
 		.'a, a:active, a:visited { color:' . of_get_option('link_color') . ';}'
 		.'#tagcloud a:hover { color:' . of_get_option('link_color') . ';}'
 		.'a.attachment-linkback:hover { color:' . of_get_option('link_color') . ';}'

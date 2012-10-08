@@ -10,13 +10,13 @@ add_filter('widget_text', 'do_shortcode');
 
 // Two-columned text
 function LB_one_half( $atts, $content = null ) { 
-   return '<div class="one_half">' . do_shortcode($content) . '</div>'; 
+	return '<div class="one_half">' . do_shortcode($content) . '</div>'; 
 } 
 add_shortcode('one_half', 'LB_one_half'); 
 
 function LB_one_half_last( $atts, $content = null ) { 
-   return '<div class="one_half last">' . do_shortcode($content) . '</div>
-   <div class="clear"></div>';
+	return '<div class="one_half last">' . do_shortcode($content) . '</div>
+	<div class="clear"></div>';
 } 
 add_shortcode('one_half_last', 'LB_one_half_last');
 
@@ -29,6 +29,14 @@ function LB_notice($atts, $content = null) {
     return $return; 
 } 
 add_shortcode('notice', 'LB_notice' );
+
+
+// Font Awesome Icons
+function LB_font_icons($atts, $content = null) {
+	extract(shortcode_atts(array( 'type' => 'icon-beaker' ), $atts));
+	return '<i class="' . $type . '"></i>';
+}
+add_shortcode('icon', 'LB_font_icons');
 
 
 // Color boxes
@@ -107,8 +115,8 @@ add_shortcode('googlemap', 'LB_googlemaps');
 
 // Google Docs
 function LB_googledocs($atts, $content = null) {
-   extract(shortcode_atts(array( 'width' => '678', 'height' => '530', 'src' => '' ), $atts));
-   return '<p><iframe class="iframe googledocs" src="https://docs.google.com/viewer?url=' . $src . '&embedded=true&embedded=true" width="' . $width . '" height="' . $height . '"></iframe></p>';
+	extract(shortcode_atts(array( 'width' => '678', 'height' => '530', 'src' => '' ), $atts));
+	return '<p><iframe class="iframe googledocs" src="https://docs.google.com/viewer?url=' . $src . '&embedded=true&embedded=true" width="' . $width . '" height="' . $height . '"></iframe></p>';
 }
 add_shortcode('googledoc', 'LB_googledocs');
 

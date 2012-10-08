@@ -172,6 +172,13 @@ function optionsframework_options() {
 		'type' => 'checkbox');
 		
 	$options[] = array(
+		'name' => __('External Link Image', 'lbprojects'),
+		'desc' => __('Mark external links with an image.', 'lbprojects'),
+		'id' => 'external_links_marker',
+		'std' => '0',
+		'type' => 'checkbox');
+		
+	$options[] = array(
 		'name' => __('Admin Style', 'lbprojects'),
 		'desc' => __('Use the custom backend stylesheet.', 'lbprojects'),
 		'id' => 'admin_style',

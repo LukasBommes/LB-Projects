@@ -20,8 +20,9 @@ function LB_theme_setup() {
 	add_theme_support('post-thumbnails');
 	add_editor_style();
 	
-	// Register menus
-	register_nav_menu('header', 'Header-Navigation');
+	// Register navigation menus
+	register_nav_menu('header', __('Header-Navigation', 'lbprojects'));
+	register_nav_menu('footer', __('Footer-Navigation', 'lbprojects'));
 	
 	// Add support for post formats
 	add_theme_support('post-formats', array( 'image', 'aside', 'quote' ));

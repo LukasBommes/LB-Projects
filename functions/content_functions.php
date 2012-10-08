@@ -72,15 +72,32 @@ function LB_thumbnail( $type ) {
 
 
 // Display announcement widget
-function LB_announce_widget() { 
+function LB_announce_widget() {
 
 	if( of_get_option('announcements') ) {
+	
+		echo '<script type="text/javascript">
+				/* <![CDATA[ */
+				$(document).ready(function(){
+					$(\'.announcement-widget .close-btn\').click(function(){
+						$(this).fadeOut(200);
+						$(\'.announcement-widget\').stop(true, true).slideUp();
+						$.cookies.set(\'announcement-state\', \'closed\');
+						return false;
+					});
+					
+					if( $.cookies.get(\'announcement-state\') == \'closed\'){
+						$(\'.announcement-widget\').hide();
+					}
+				});
+				/* ]]> */
+			</script>';
 	
 		echo '<div class="announcement-widget">';
 			
 			echo '<p class="textwidget">';
-				echo '<i class="icon-exclamation-sign icon-large"></i>';
 				echo of_get_option('announcements');
+				echo '<a class="close-btn" href="#" title="' . __('Dismiss', 'lbprojects') . '"><i class="icon-remove"></i></a>';
 			echo '</p>';
 			
 		echo '</div>';

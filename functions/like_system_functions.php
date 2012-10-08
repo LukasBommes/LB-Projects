@@ -32,7 +32,7 @@ function post_like() {
 		$ip = $_SERVER['REMOTE_ADDR'];
 		$post_id = $_POST['post_id'];
 		$meta_IP = get_post_meta($post_id, "voted_IP");
-		$voted_IP = $meta_IP[0];
+		if( isset( $meta_IP['0'] ) ) $voted_IP = $meta_IP['0'];
 		
 		if( !is_array($voted_IP) ) {
 			$voted_IP = array();
@@ -60,7 +60,8 @@ function post_like() {
 function hasAlreadyVoted($post_id) { 
 	global $timebeforerevote;
 	$meta_IP = get_post_meta($post_id, "voted_IP");
-	$voted_IP = $meta_IP[0];
+	$voted_IP = 0;
+	if( isset( $meta_IP['0'] ) ) $voted_IP = $meta_IP['0'];
 	
 	if( !is_array($voted_IP) ) {
 		$voted_IP = array();
