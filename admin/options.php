@@ -241,6 +241,14 @@ function optionsframework_options() {
 		'id' => 'exclude_pages',
 		'std' => '1',
 		'type' => 'checkbox');
+		
+	$options[] = array(
+		'name' => __('Article Meta Data', 'lbprojects'),
+		'desc' => __('Decide where you would like to display information about the article author, date of publication, post tags or the current post\'s category.', 'lbprojects'),
+		'id' => 'article_meta',
+		'std' => array( 'single_post' => '1', 'single_page' => '1', 'index_page' => '0'	),
+		'type' => 'multicheck',
+		'options' => array( 'single_post' => __('Single Posts', 'lbprojects'), 'single_page' => __('Single Pages', 'lbprojects'), 'index_page' => __('Index Pages', 'lbprojects') ) );
 
 	// Footer Buttons
 	$options[] = array(
@@ -266,7 +274,7 @@ function optionsframework_options() {
 		'name' => __('YouTube', 'lbprojects'),
 		'desc' => __('Enter your YouTube account name.', 'lbprojects'),
 		'id' => 'button_youtube',
-		'std' => 'LBHomeprojects',
+		'std' => '',
 		'class' => 'child-social_buttons',
 		'type' => 'text');
 		
@@ -282,7 +290,7 @@ function optionsframework_options() {
 		'name' => __('Twitter', 'lbprojects'),
 		'desc' => __('Enter the URL to your Twitter profile.', 'lbprojects'),
 		'id' => 'button_twitter',
-		'std' => 'https://twitter.com/LukasBommes',
+		'std' => '',
 		'class' => 'child-social_buttons',
 		'type' => 'text');
 		

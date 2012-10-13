@@ -63,9 +63,14 @@
 .sf-menu ul li a:active,
 .sf-menu ul li a:visited {
 	margin: 0;
+	color: #222;
 	border-top: 1px solid transparent;
 	border-bottom: 1px solid transparent;
-	color: #222;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	-o-border-radius: 0;
+	-ms-border-radius: 0;
 }
 
 .sf-menu a, 
@@ -76,11 +81,16 @@
 	display: block;
 	position: relative;
 	color: #fff;
-	transition: background-color 0.1s;
-	-moz-transition: background-color 0.1s;
-	-webkit-transition: background-color 0.1s;
-	-o-transition: background-color 0.1s;
-	-ms-transition: background-color 0.1s;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	transition: background-color 0.15s;
+	-moz-transition: background-color 0.15s;
+	-webkit-transition: background-color 0.15s;
+	-o-transition: background-color 0.15s;
+	-ms-transition: background-color 0.15s;
 }
 
 .sf-menu a:focus, 
@@ -89,11 +99,6 @@
 	outline: 0;
 	text-decoration: none;
 	background: #484a4f;
-	border-radius: 3px;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-o-border-radius: 3px;
-	-ms-border-radius: 3px;
 }
 
 .sf-menu ul li a:focus,
@@ -102,11 +107,6 @@
 	background: #f0f0f0;
 	border-top: 1px solid #aaa;
 	border-bottom: 1px solid #aaa;
-	border-radius: 0;
-	-moz-border-radius: 0;
-	-webkit-border-radius: 0;
-	-o-border-radius: 0;
-	-ms-border-radius: 0;
 }
 
 ul.sf-menu > li [class^="icon-"] {

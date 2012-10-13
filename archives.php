@@ -26,7 +26,7 @@ Template Name: Archives
 			
 			<div class="article">
 				
-				<?php LB_article_title('single'); ?>
+				<?php LB_article_title(); ?>
 				
 				<?php LB_article_info(); ?>
 				

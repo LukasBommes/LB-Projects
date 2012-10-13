@@ -52,18 +52,18 @@ function LB_related_posts() {
 
 
 // Display article thumbnail
-function LB_thumbnail( $type ) {
+function LB_thumbnail() {
 
 	if( has_post_thumbnail() && of_get_option('thumbnails') ) {
 	
 		if ( !( has_post_format('aside') || has_post_format('quote') || has_post_format('image') )  ) {
 			
-			if( $type == 'cat' ) {	
-				the_post_thumbnail( array( 80, 80 ) );
+			if( is_single() || is_page() ) {
+				the_post_thumbnail( array( 200, 200 ) );
 			}
 			
-			if( $type == 'single' ) {
-				the_post_thumbnail( array( 200, 200 ) );				
+			else {
+				the_post_thumbnail( array( 80, 80 ) );
 			}
 			
 		}		
@@ -79,6 +79,9 @@ function LB_announce_widget() {
 		echo '<script type="text/javascript">
 				/* <![CDATA[ */
 				$(document).ready(function(){
+				
+					$(\'.announcement-widget\').show();
+					
 					$(\'.announcement-widget .close-btn\').click(function(){
 						$(this).fadeOut(200);
 						$(\'.announcement-widget\').stop(true, true).slideUp();
@@ -135,19 +138,22 @@ function LB_author_info() {
 function LB_article_info() {
 
 	if( !( has_post_format('aside') || has_post_format('quote') || has_post_format('image') )  ) {
-
-		echo '<div class="article-meta">';
 		
-			// Get the date
-			$arc_year = get_the_time('Y');
-			$arc_month = get_the_time('m');
-			$arc_day = get_the_time('d');
+		// Get the date
+		$arc_year = get_the_time('Y');
+		$arc_month = get_the_time('m');
+		$arc_day = get_the_time('d');
+		
+		// Get admin panel settings
+		$article_meta = of_get_option('article_meta');
+	
+		// Article data for single posts
+		if( is_single() && $article_meta['single_post'] ) {
 			
-			// Display edit link for users with appropiate permissions
-			edit_post_link('<i class="icon-edit"></i>' . __('Edit This', 'lbprojects'));
-		
-			// Article data for single posts
-			if( !is_page() ) {
+			echo '<div class="article-meta">';
+			
+				// Display edit link for users with appropiate permissions
+				edit_post_link('<i class="icon-edit"></i>' . __('Edit This', 'lbprojects'));
 
 				echo '<div class="article-date">';				
 					echo '<i class="icon-time icon-large"></i>' . __('posted on', 'lbprojects')
@@ -173,11 +179,17 @@ function LB_article_info() {
 				if( of_get_option('like_button') ) {
 					echo getPostLikeLink(get_the_ID());
 				}
-				
-			}
 			
-			// Article data for pages
-			else {
+			echo '</div>';
+
+		}
+
+		// Article data for pages
+		else if( ( is_page() && $article_meta['single_page'] ) || ( !( is_page() || is_single() ) && $article_meta['index_page'] ) ) {
+		
+			echo '<div class="article-meta">';
+
+				edit_post_link('<i class="icon-edit"></i>' . __('Edit This', 'lbprojects'));
 			
 				echo '<div class="page-info">';				
 					echo '<i class="icon-file icon-large"></i>' . __('posted on', 'lbprojects')
@@ -186,10 +198,9 @@ function LB_article_info() {
 					. ' ' . __('by', 'lbprojects') . ' ' . '<a href="' . get_author_posts_url(get_the_author_meta( 'ID' )) . '">' . get_the_author_meta('display_name') . '</a>';
 				echo '</div>';
 				
-			}			
-
-		echo '</div>';
-		
+			echo '</div>';
+			
+		}		
 	}
 	
 	if( has_post_format('quote') ) {		
@@ -205,19 +216,7 @@ function LB_article_title( $type ) {
 
 		echo '<div class="title">';
 		
-			if( $type == 'cat' ) {
-			
-				echo '<h2><a href="' . get_permalink() . '">' . get_the_title() . '</a></h2>';
-
-				echo '<span class="article-comments">';
-					echo '<a href="' . get_permalink() . '/#comment-wrapper">';
-					if( comments_open() ) echo get_comments_number();
-					else echo 'off';
-				echo '<span class="coments-arrow"></span></a></span>';
-				
-			}
-
-			if( $type == 'single' ) {
+			if( is_single() || is_page() ) {
 			
 				echo '<h1>' . get_the_title() . '</h1>';
 				
@@ -226,6 +225,18 @@ function LB_article_title( $type ) {
 					if( comments_open() ) echo get_comments_number();
 					else echo "off";
 				echo '<span class="comments-arrow"></span></a></span>';
+				
+			}
+		
+			else {
+			
+				echo '<h2><a href="' . get_permalink() . '">' . get_the_title() . '</a></h2>';
+
+				echo '<span class="article-comments">';
+					echo '<a href="' . get_permalink() . '/#comment-wrapper">';
+					if( comments_open() ) echo get_comments_number();
+					else echo 'off';
+				echo '<span class="coments-arrow"></span></a></span>';
 				
 			}
 			

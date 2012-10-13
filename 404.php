@@ -40,7 +40,8 @@
 						
 					} ?>
 					
-					<span><a href="mailto:<?php bloginfo('admin_email'); ?>"><?php bloginfo('admin_email'); ?></a></span>
+					<?php $admin_mail = antispambot( get_bloginfo('admin_email') ); ?>
+					<span><a href="mailto:<?php echo $admin_mail; ?>"><?php echo $admin_mail; ?></a></span>
 				
 				</p>
 

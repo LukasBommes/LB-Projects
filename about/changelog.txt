@@ -1,5 +1,13 @@
 ++++++++++++++++++++++++++++++++ Changelog ++++++++++++++++++++++++++++++++
 
+Version 3.3:
+-removed notification from single page, when comments are closed
+-functionality of contact form improved
+-added prefix to style and script handlers
+-moved initialization scripts from header to functions.php
+-shortcode for secure display of email addresses added
+-custom content functions for displaying post titles and article information improved
+
 Version 3.2:
 -slight design changes on attachment page
 -comments template added to attachment page

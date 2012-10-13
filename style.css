@@ -4,7 +4,7 @@ Theme URI: http://projects.lb-home.de/2012/08/lb-projects-theme-download/
 Description: The ultimate and professional LB-Projects Theme combines a maximum of functionality and flexibility with minimalistic and precious design. Besides standard functionality like menus and widgets, the LB-Projects Theme offers a wide range of additional features, such as the extensive theme options panel or different post formats. The theme is fully translation ready and contains various templates such as archives, an email contact form and a full-width template for pages without a sidebar. On top of that the theme provides easy to use custom shortcuts for notification boxes, notices, spoilers, accordion-menus and two column-layouts as well as a custom editor style and extra functionality like thumbnails, backgrounds, a javascript image slider and a featured post slider for a static frontpage.
 Author: Lukas Bommes
 Author URI: http://projects.lb-home.de
-Version: 3.2
+Version: 3.3
 Tags: black, white, orange, light, one-column, right-sidebar, left-sidebar, fixed-width, custom-background, custom-header, custom-menu, custom-colors, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, editor-style, post-formats
 License: GNU General Public License v2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -119,7 +119,7 @@ body {
 }
 
 #footer-wrapper,
-#legacy-footer-wrapper {
+#lower-footer-wrapper {
 	margin: 0 auto;
 	padding: 0 15px 0 75px;
 	position: relative;
@@ -132,7 +132,7 @@ body {
 	min-height: 150px;
 }
 
-#legacy-footer {
+#lower-footer {
 	padding: 6px 0;
 	min-width: 1090px;
 	font-size: 75%;
@@ -140,13 +140,13 @@ body {
 	background-color: #33363b;
 }
 
-#legacy-footer a,
-#legacy-footer a:active,
-#legacy-footer a:visited {
+#lower-footer a,
+#lower-footer a:active,
+#lower-footer a:visited {
 	color: #999;
 }
 
-#legacy-footer a:hover {
+#lower-footer a:hover {
 	text-decoration: none;
 	border-bottom: 1px dotted #ddd;
 }
@@ -158,6 +158,7 @@ body {
 	margin: 4px 0 0 -7px;
 	padding: 0;
 	list-style-type: none;
+	font-size: 90%;
 }
 
 .footer-nav-wrapper ul li {
@@ -410,8 +411,8 @@ hr {
 	font-size: 25px;
 	font-family: Arial;
 	color: #fff;
-	background-color: #33363b;
-	opacity: 0.5;
+	background-color: #000;
+	opacity: 0.4;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -426,7 +427,7 @@ hr {
 
 #back-top a:hover {
 	text-decoration: none;
-	opacity: 0.9;
+	opacity: 0.6;
 }
 
 #back-top i {
@@ -1586,6 +1587,7 @@ li.widget:last-child {
 	margin-bottom: 15px;
 	padding: 0 50px 0 10px;
 	position: relative;
+	display: none;
 	list-style-type: none;
 	border: 1px solid #bba737;
 	background-color: #ffa;
@@ -1924,6 +1926,7 @@ li.widget:last-child {
 #respond {
 	margin-bottom: 15px;
 	padding: 15px 21px 15px 15px;
+	position: relative;
 	overflow: hidden;
 	border: 1px solid #ddd;
 	background-color: #fff;
@@ -1935,7 +1938,15 @@ li.widget:last-child {
 
 #reply-title {
 	margin-top: 0;
+	max-width: 490px;
 	font-size: 130%;
+}
+
+#reply-title a,
+#reply-title a:active,
+#reply-title a:visited {
+	text-decoration: none;
+	color: #3a3a3a;
 }
 
 #respond #commentform input#author,
@@ -2102,8 +2113,10 @@ textarea#comment:focus {
 #respond #cancel-comment-reply-link:active,
 #respond #cancel-comment-reply-link:visited {
 	margin-right: -6px;
-	float: right;
-	font-size: 12px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-size: 85%;
 	color: #888;
 }
 

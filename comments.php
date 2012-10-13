@@ -68,7 +68,9 @@
 
 	</div><!-- comment-wrapper -->
 
-<?php else : ?>
+<?php endif; ?>
+
+<?php if( !comments_open() && !is_page() ) : ?>
 
 	<div id="nocomments">
 		<?php _e('Comments are off.', 'lbprojects'); ?>

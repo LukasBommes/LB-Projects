@@ -82,9 +82,9 @@
 	
 </div><!-- footer -->
 
-<div id="legacy-footer">
+<div id="lower-footer">
 
-	<div id="legacy-footer-wrapper">
+	<div id="lower-footer-wrapper">
 
 			<div class="footer-nav-wrapper">
 				<?php wp_nav_menu( array( 'theme_location'  => 'footer', 'fallback_cb' => 'none', 'depth' => 1 ) ); ?>
@@ -96,14 +96,14 @@
 				<?php if( of_get_option('footer_text') ) : ?>
 					<?php echo of_get_option('footer_text') . ', '; ?>
 				<?php endif; ?>
-				<?php _e('Theme developed by', 'lbprojects'); ?> <a href="http://projects.lb-home.de/"><?php _e('LB-Projects', 'lbprojects'); ?></a></span>
+				<?php _e('Theme developed by', 'lbprojects'); ?> <a href="http://projects.lb-home.de/"><?php _e('LB-Projects', 'lbprojects'); ?></a>
 			</div>
 		
 	</div>
 
 	<div class="clear"></div>
 
-</div><!-- legacy-footer -->
+</div><!-- lower-footer -->
 
 <?php wp_footer(); ?>
 

@@ -89,7 +89,7 @@
 								<?php the_post_thumbnail( array( 150, 150 ) ); ?>
 							</a>
 							
-							<?php the_excerpt(); ?> 
+							<?php the_excerpt(); ?>
 
 						</div>
 
@@ -123,16 +123,18 @@
 			<div class="article">
 			
 				<?php if( !is_page() ) : ?>
-					<?php LB_article_title('cat'); ?>
+					<?php LB_article_title(); ?>
 				<?php else : ?>
 					<div class="title">
 						<h2><?php the_title(); ?></h2>
 					</div>
 				<?php endif; ?>
-						
+				
+				<?php LB_article_info(); ?>
+
 				<div class="entry">
 				
-					<?php LB_thumbnail('cat'); ?>
+					<?php LB_thumbnail(); ?>
 
 					<?php the_content( '<i class="icon-plus"></i> ' . __('read more', 'lbprojects') ); ?>
 

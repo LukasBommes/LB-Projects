@@ -20,13 +20,13 @@
 			
 			<div class="article">
 					
-				<?php LB_article_title('single'); ?>
+				<?php LB_article_title(); ?>
 				
 				<?php LB_article_info(); ?>
 					
 				<div class="entry">
 				
-					<?php LB_thumbnail('single'); ?>
+					<?php LB_thumbnail(); ?>
 
 					<?php the_content( '<i class="icon-plus"></i> ' . __('read more', 'lbprojects') ); ?>
 

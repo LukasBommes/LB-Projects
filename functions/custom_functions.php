@@ -19,6 +19,19 @@ function LB_enqueue_google_tracking_code() {
 add_action( 'wp_enqueue_scripts', 'LB_enqueue_google_tracking_code' );
 
 
+// Hook initialization scripts for slideshow and navigation
+function LB_init_config_scripts() {
+	echo '<script type="text/javascript">
+			/* <![CDATA[ */
+			supersubs_init();
+			superfish_init();
+			slider_init();
+			/* ]]> */
+		</script>';
+}
+add_action('wp_head', 'LB_init_config_scripts');
+
+
 // Customize backend
 function LB_admin_style() {
 	if( of_get_option('admin_style') ) {
@@ -54,9 +67,7 @@ add_action('get_header', 'LB_maintenance_mode');
 function LB_external_links() {
 	if( of_get_option('external_links') ) {
 	
-		if( of_get_option('external_links_marker') ) {
-			$external_link_marker = '<sup class="external-link"><i class="icon-external-link"></i></sup>';
-		}
+		of_get_option('external_links_marker') ? $external_link_marker = '<sup class="external-link"><i class="icon-external-link"></i></sup>' : $external_link_marker = '';
 		
 		echo '<script type="text/javascript">
 				/* <![CDATA[ */

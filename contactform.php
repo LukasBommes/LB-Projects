@@ -59,9 +59,8 @@ if( isset( $_POST['submitted'] ) ) {
 	// Send email
 	if(!isset($hasError)) {
 		$emailTo = get_option('admin_email');
-		$body = "Nachricht vom Blog gesendet:\n\nName: $name \neMail: $eMail \n\n".
-				"Betreff: $subject \nNachricht: $message";
-		$headers = 'From: '.$name.' < '.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $eMail;
+		$body = __('Message sent from blog:', 'lbprojects') . "\n\n" . __('Name:', 'lbprojects') . ' ' . $name . "\n" . __('Email:', 'lbprojects') . ' ' . $eMail . "\n" . __('Subject:', 'lbprojects') . ' ' . $subject . "\n\n" . __('Message:', 'lbprojects') . ' ' . $message;
+		$headers = 'From: ' . $name . ' < ' . $eMail . '>' . "\r\n" . 'Reply-To: ' . $eMail;
 		mail($emailTo, $subject, $body, $headers);
 		$emailSent = true;
 	} 

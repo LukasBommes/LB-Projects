@@ -83,6 +83,20 @@ function LB_accordion($atts, $content = null) {
 add_shortcode('accordion', 'LB_accordion' );
 
 
+// Output spambot protected email address
+function LB_secure_email($atts, $content = null) {
+	extract(shortcode_atts(array( 'address' => '', 'mailto' => 'true' ), $atts));
+	$encoded_mail = antispambot( $address );
+	if( $mailto == 'true' ) {
+		return '<span><a href="mailto:' . $encoded_mail . '">' . $encoded_mail . '</a></span>';
+	}
+	else if( $mailto == 'false' ) {
+		return '<span>' . $encoded_mail . '</span>';
+	}
+}
+add_shortcode('email', 'LB_secure_email');
+
+
 // Google Maps
 function LB_googlemaps($atts, $content = null) {
 	extract(shortcode_atts(array( 'width' => '658', 'height' => '350', 'zoom' => 15, 'address' => '' ), $atts));

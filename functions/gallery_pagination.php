@@ -66,7 +66,7 @@ function LB_paginated_gallery( $attr ) {
 	$imageCount = count($attachments);
 	$pageCount = ceil($imageCount / $imagesPerPage);
 	
-	$currentPage = intval($_GET['galleryPage']);
+	isset( $_GET['galleryPage'] ) ? $currentPage = intval($_GET['galleryPage']) : $currentPage = '';
 	if( empty($currentPage) || $currentPage <= 0 ) $currentPage = 1;
 	
 	$maxImage = $currentPage * $imagesPerPage;
