@@ -1,3 +1,12 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!! WARNING: The project is no longer supported, nor does any further  !!!
+!!! development take place. The project webiste projects.lb-home.de    !!!
+!!! is no longer active and should not be visited.                     !!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
 +++++++++++++++++++++++++++++++++ Readme ++++++++++++++++++++++++++++++++++
 
 LB-Projects Theme has been developed by Lukas Bommes. LB-Projects and 
